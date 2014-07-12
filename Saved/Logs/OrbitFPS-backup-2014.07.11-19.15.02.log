@@ -1,0 +1,550 @@
+Log file open, 07/11/14 16:04:56
+LogInit:Display: Running engine for game: OrbitFPS
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal E4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.11-23.04.56:320][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.07.11-23.04.56:368][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.11-23.04.56:396][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.11-23.04.56:415][  0]LogInit: Object subsystem initialized
+[2014.07.11-23.04.56:419][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.11-23.04.56:419][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.11-23.04.56:431][  0]LogInit: Computer: BEAST
+[2014.07.11-23.04.56:431][  0]LogInit: User: Eric
+[2014.07.11-23.04.56:434][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.07.11-23.04.56:434][  0]LogInit: High frequency timer resolution =2.241074 MHz
+[2014.07.11-23.04.56:434][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx) Virtual=8192.0GB
+[2014.07.11-23.04.56:434][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.11-23.04.56:434][  0]LogMemory: Process Physical Memory: 55.95 MB used, 55.95 MB peak
+[2014.07.11-23.04.56:434][  0]LogMemory: Process Virtual Memory: 32.16 MB used, 32.34 MB peak
+[2014.07.11-23.04.56:434][  0]LogMemory: Physical Memory: 5420.05 MB used, 12184.70 MB total
+[2014.07.11-23.04.56:434][  0]LogMemory: Virtual Memory: 235.34 MB used, 8388608.00 MB total
+[2014.07.11-23.04.56:529][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.07.11-23.04.56:529][  0]LogD3D11RHI: Adapter has 4040MB of dedicated video memory, 0MB of dedicated system memory, and 5836MB of shared system memory, 1 output[s]
+[2014.07.11-23.04.56:529][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.11-23.04.56:550][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.11-23.04.56:580][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.11-23.04.56:767][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.11-23.04.59:151][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.11-23.04.59:492][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.11-23.04.59:599][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.11-23.04.59:671][  0]LogDerivedDataCache: Loaded boot cache 0.07s 40MB C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.11-23.04.59:671][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.11-23.04.59:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.11-23.04.59:671][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.11-23.04.59:693][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.11-23.04.59:706][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.11-23.05.00:210][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.11-23.05.00:210][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.11-23.05.01:052][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.11-23.05.02:041][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.11-23.05.02:041][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.11-23.05.02:054][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.11-23.05.02:054][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.11-23.05.02:688][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.11-23.05.03:111][  0]BlueprintLog: New page: Editor Load
+[2014.07.11-23.05.03:219][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.07.11-23.05.03:219][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
+[2014.07.11-23.05.03:780][  0]LogEngine: Initializing Engine...
+[2014.07.11-23.05.04:037][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.07.11-23.05.04:073][  0]LogInit: FAudioDevice initialized.
+[2014.07.11-23.05.04:120][  0]LogDerivedDataCache: Saved boot cache 0.04s 40MB C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.11-23.05.04:126][  0]LogInit: Texture streaming: Enabled
+[2014.07.11-23.05.04:214][  0]LogInit: Transaction tracking system initialized
+[2014.07.11-23.05.04:544][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2014.07.11-23.05.05:049][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.11-23.05.05:068][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.11-23.05.05:221][  0]LogConsoleResponse:Display: 
+[2014.07.11-23.05.05:894][  0]LogSourceControl: Attempting 'svn info --xml ../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/ --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.05.05:975][  0]SourceControl:Warning: Warning svn: E155007: 'C:\Users\Eric\Documents\Unreal' is not a working copy
+[2014.07.11-23.05.05:975][  0]SourceControl:Warning: Warning Failed to connect to repository 
+[2014.07.11-23.05.05:975][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.11-23.05.05:977][  0]LightingResults: New page: Lighting Build
+[2014.07.11-23.05.06:000][  0]MapCheck: New page: Map Check
+[2014.07.11-23.05.06:000][  0]LightingResults: New page: Lighting Build
+[2014.07.11-23.05.06:029][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000103F45E0
+[2014.07.11-23.05.06:576][  0]LogBlueprint:Warning: Node '/Game/Blueprints/BP_BrokenWallSconceSmokey.BP_BrokenWallSconceSmokey:EventGraph.K2Node_VariableGet_235' missing NodeGuid.
+[2014.07.11-23.05.06:639][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.11-23.05.06:639][  0]Cmd: MAP CHECKDEP
+[2014.07.11-23.05.06:640][  0]MapCheck: New page: Example_Map - Jul 11, 2014, 9:05:06 AM
+[2014.07.11-23.05.06:794][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [154.468ms] ==========
+[2014.07.11-23.05.06:795][  0]LogFileHelpers: Loading map 'Example_Map' took 0.819
+[2014.07.11-23.05.07:011][  0]LogCollectionManager: Loaded 0 collections in 0.002510 seconds
+[2014.07.11-23.05.07:268][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.11-23.05.07:270][  0]LogSourceControl: Attempting 'svn info "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/" --xml --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.05.07:270][  0]Cmd: MODE PLACEMENT
+[2014.07.11-23.05.07:402][  0]LogLoad: Full Startup: 13.29 seconds (BP compile: 0.19 seconds)
+[2014.07.11-23.05.07:421][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.11-23.05.07:433][  0]SourceControl:Error: Error svn: E155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS' is not a working copy
+[2014.07.11-23.05.07:758][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.07.11-23.05.08:005][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>262DE0C14986BA7E</RequestId><HostId>tcTK+OlJ7mlkpabFhqRlPuY/mhVKmj3uIISkeim1eiVuQo/wmOT/3vEzUoCx+oP/immzSMJF89o=</HostId></Error>
+[2014.07.11-23.05.08:263][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>235455D456771A24</RequestId><HostId>cbwyodcG5coSeBYpw3ExZvzyFlqp+9u+hm11DNpux/1JKhaswk5N3tKLGeNDe1mWPUY2h35SN6Y=</HostId></Error>
+[2014.07.11-23.05.08:309][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>11D6B5E2A36D7ABE</RequestId><HostId>9j0xB7qNKaSM/+kDG2JfEY5MFtnLvY9fQAIZR3f06MspeB5I+2ECo2ynItPbvXPe</HostId></Error>
+[2014.07.11-23.05.08:340][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B47BD841FCBA73FA</RequestId><HostId>AMpO2zTPb/6yDcYqjZUhJYgVHGLooc3DHfSfM/VfqXgKcM8bMkiZWwECJmnX72vQJBGe6oxpI9U=</HostId></Error>
+[2014.07.11-23.05.08:348][  4]LogAssetRegistry: Asset discovery search completed in 3.8136 seconds
+[2014.07.11-23.05.08:420][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D84D83D02E4857E9</RequestId><HostId>Uuu6Q2dvZcLy2J4NNYVV1Mzhl0gLQeq5j1IXSsmG4fw+8PB3ZaCDWD7kfa+oUBSi76p7H8Mtwmc=</HostId></Error>
+[2014.07.11-23.05.08:477][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-23.05.08:481][  8]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-23.05.08:985][ 39]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_BrokenWallSconceSmokey.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.05.09:058][ 44]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\BP_BrokenWallSconceSmokey.uasset' is not a working copy
+[2014.07.11-23.05.12:504][271]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/Blueprint_CeilingLight.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/Blueprint_Effect_Explosion.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/Blueprint_Effect_Fire.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/Blueprint_Effect_Smoke.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/Blueprint_Effect_Sparks.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/Blueprint_Effect_Steam.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/Blueprint_WallSconce.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Grenade.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyCharacter.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\Blueprint_CeilingLight.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\Blueprint_Effect_Explosion.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\Blueprint_Effect_Fire.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\Blueprint_Effect_Smoke.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\Blueprint_Effect_Sparks.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\Blueprint_Effect_Steam.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\Blueprint_WallSconce.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\BP_Grenade.uasset' is not a working copy
+[2014.07.11-23.05.12:601][277]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyCharacter.uasset' is not a working copy
+[2014.07.11-23.05.16:744][355]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.11-23.05.17:767][416]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyHUD.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyProjectile.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.05.17:846][421]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyGame.uasset' is not a working copy
+[2014.07.11-23.05.17:846][421]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyHUD.uasset' is not a working copy
+[2014.07.11-23.05.17:846][421]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyProjectile.uasset' is not a working copy
+[2014.07.11-23.05.21:731][690]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.05.21:802][690]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\PlayerController.uasset' is not a working copy
+[2014.07.11-23.05.24:456][785]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.07.11-23.05.29:600][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:600][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:605][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:605][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:605][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:605][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:606][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:606][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:606][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:606][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:607][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:607][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:607][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:607][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:607][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:608][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:608][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.05.29:608][971]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.07.54:601][842]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.07.54:602][842]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.07.54:602][842]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.07.54:602][842]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:093][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:093][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:093][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:094][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:094][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:094][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:094][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:094][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.36:095][331]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.08.58:816][168]BlueprintLog: New page: Compile PlayerController
+[2014.07.11-23.08.58:829][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.World_1:PersistentLevel.PlayerController_C_0.GameplayDebuggingControllerComponent_0) Not registered. Aborting.
+[2014.07.11-23.08.59:574][168]BlueprintEditorCompileResults: Info [0244.70] Compile of PlayerController successful! [in 3 ms]
+[2014.07.11-23.09.13:950][725]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.07.11-23.09.15:999][802]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.07.11-23.09.16:061][802]LogLinker:Warning: CreateExport: Failed to load Super for Function /Game/Character/HeroFPP_AnimBlueprint.HeroFPP_AnimBlueprint_C:KismetUpdateAnimation; removing super information, but keeping function
+[2014.07.11-23.09.20:709][803]Cmd: UpdateLandscapeSetup
+[2014.07.11-23.09.30:299][199]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.07.11-23.09.52:023][979]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.09.52:115][979]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Maps\Example_Map.umap' is not a working copy
+[2014.07.11-23.09.52:161][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.07.11-23.09.52:161][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.07.11-23.09.52:162][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.07.11-23.09.53:275][979]LogSavePackage: Save=915.150085ms
+[2014.07.11-23.09.53:276][979]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Example_MapE94F981849678BB3BFD84E99294AC8AF.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap'
+[2014.07.11-23.10.54:172][752]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.10.54:172][752]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-23.11.44:524][250]BlueprintLog: New page: Compile PlayerController
+[2014.07.11-23.11.44:651][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.07.11-23.11.44:651][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.07.11-23.11.44:651][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.07.11-23.11.45:286][250]BlueprintEditorCompileResults: Info [0410.41] Compile of PlayerController successful! [in 6 ms]
+[2014.07.11-23.11.45:924][263]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.11.46:000][263]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\PlayerController.uasset' is not a working copy
+[2014.07.11-23.11.46:047][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerController" FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" SILENT=true
+[2014.07.11-23.11.46:167][263]LogSavePackage: Save=57.639328ms
+[2014.07.11-23.11.46:167][263]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/PlayerControllerA7F4E0CC45EE3045423D00B9F2804154.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset'
+[2014.07.11-23.11.58:313][618]BlueprintLog: New page: Compile MyGame
+[2014.07.11-23.11.58:417][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.07.11-23.11.58:417][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.07.11-23.11.58:417][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.07.11-23.11.59:615][618]BlueprintEditorCompileResults: Info [0424.20] Compile of MyGame successful! [in 8 ms]
+[2014.07.11-23.12.00:480][639]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.12.00:576][639]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyGame.uasset' is not a working copy
+[2014.07.11-23.12.00:625][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGame" FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" SILENT=true
+[2014.07.11-23.12.00:734][639]LogSavePackage: Save=45.677654ms
+[2014.07.11-23.12.00:734][639]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/MyGame9F54F0D8467FD99AC68374BEFCF3213E.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset'
+[2014.07.11-23.12.18:708][373]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-23.12.18:709][373]PIE: New page: PIE session: Example_Map (Jul 11, 2014, 9:12:18 AM)
+[2014.07.11-23.12.18:771][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062778s)
+[2014.07.11-23.12.18:773][373]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2014.07.11-23.12.18:773][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.064396s)
+[2014.07.11-23.12.18:773][373]LogWorld: Game class is 'MyGame_C'
+[2014.07.11-23.12.18:864][373]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.11-16.12.18
+[2014.07.11-23.12.18:865][373]LogWorld: Bringing up level for play took: 0.008070
+[2014.07.11-23.12.18:866][373]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.07.11-23.12.18:867][373]LogGameMode: RestartPlayer 256
+[2014.07.11-23.12.18:869][373]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
+[2014.07.11-23.12.18:869][373]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
+[2014.07.11-23.12.18:885][373]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.795
+[2014.07.11-23.12.18:886][373]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.11-23.12.18:891][373]LogInit: WinSock: I am Beast (192.168.1.3:0)
+[2014.07.11-23.12.18:891][373]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2014.07.11-23.12.18:892][373]PIE: New page: PIE session: Example_Map (Jul 11, 2014, 9:12:18 AM)
+[2014.07.11-23.12.18:894][373]LogWorld: Game class is 'GameMode'
+[2014.07.11-23.12.18:959][373]LogWorld: Bringing World /Temp/Untitled_1.NewWorld up for play (max tick rate 0) at 2014.07.11-16.12.18
+[2014.07.11-23.12.18:960][373]LogWorld: Bringing up level for play took: 0.001646
+[2014.07.11-23.12.18:961][373]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.11-23.12.18:962][373]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.07.11-23.12.18:962][373]LogGameMode: RestartPlayer 257
+[2014.07.11-23.12.18:963][373]LogPlayerController: ClientRestart_Implementation DefaultPawn_0
+[2014.07.11-23.12.18:963][373]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_0
+[2014.07.11-23.12.18:975][373]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.886
+[2014.07.11-23.12.18:976][373]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.11-23.12.18:976][373]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.11-23.12.18:977][373]LogNet: Game client on port 7777, rate 10000
+[2014.07.11-23.12.18:978][373]PIE: New page: PIE session: Example_Map (Jul 11, 2014, 9:12:18 AM)
+[2014.07.11-23.12.18:980][373]LogWorld: Game class is 'GameMode'
+[2014.07.11-23.12.19:044][373]LogWorld: Bringing World /Temp/Untitled_2.NewWorld up for play (max tick rate 0) at 2014.07.11-16.12.19
+[2014.07.11-23.12.19:044][373]LogWorld: Bringing up level for play took: 0.000845
+[2014.07.11-23.12.19:045][373]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.11-23.12.19:045][373]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.07.11-23.12.19:045][373]LogGameMode: RestartPlayer 258
+[2014.07.11-23.12.19:046][373]LogPlayerController: ClientRestart_Implementation DefaultPawn_1
+[2014.07.11-23.12.19:046][373]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_1
+[2014.07.11-23.12.19:058][373]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.969
+[2014.07.11-23.12.19:059][373]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.11-23.12.19:059][373]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.11-23.12.19:060][373]LogNet: Game client on port 7777, rate 10000
+[2014.07.11-23.12.19:061][373]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.11-23.12.19:061][373]LogNet: Open Example_Map 07/11/14 16:12:19 127.0.0.1
+[2014.07.11-23.12.19:061][373]LogNet: Added client connection.  Remote address = 127.0.0.1:61312
+[2014.07.11-23.12.19:061][373]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.11-23.12.19:061][373]LogNet: Remote platform little endian=1
+[2014.07.11-23.12.19:061][373]LogNet: This platform little endian=1
+[2014.07.11-23.12.19:061][373]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.11-23.12.19:061][373]LogNet: Open Example_Map 07/11/14 16:12:19 127.0.0.1
+[2014.07.11-23.12.19:061][373]LogNet: Added client connection.  Remote address = 127.0.0.1:61313
+[2014.07.11-23.12.19:061][373]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.11-23.12.19:061][373]LogNet: Remote platform little endian=1
+[2014.07.11-23.12.19:061][373]LogNet: This platform little endian=1
+[2014.07.11-23.12.19:229][373]LogRenderer:Warning: Reallocating scene render targets to support 1616x912.
+[2014.07.11-23.12.19:426][374]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.11-23.12.19:426][374]LogNet: Client netspeed is 10000
+[2014.07.11-23.12.19:426][374]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.11-23.12.19:426][374]LogNet: Client netspeed is 10000
+[2014.07.11-23.12.19:430][374]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/MyGame.MyGame_C)
+[2014.07.11-23.12.19:577][374]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/MyGame.MyGame_C
+[2014.07.11-23.12.19:578][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.07.11-23.12.19:579][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.07.11-23.12.19:579][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.07.11-23.12.19:667][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000254022A0
+[2014.07.11-23.12.19:667][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FEECE00
+[2014.07.11-23.12.19:668][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D9D7F60
+[2014.07.11-23.12.19:677][374]Cmd: MEM
+[2014.07.11-23.12.19:717][374]LogMemory: Platform Memory Stats for Windows
+[2014.07.11-23.12.19:717][374]LogMemory: Process Physical Memory: 577.63 MB used, 585.68 MB peak
+[2014.07.11-23.12.19:717][374]LogMemory: Process Virtual Memory: 496.29 MB used, 504.34 MB peak
+[2014.07.11-23.12.19:717][374]LogMemory: Physical Memory: 6016.45 MB used, 12184.70 MB total
+[2014.07.11-23.12.19:717][374]LogMemory: Virtual Memory: 1021.93 MB used, 8388608.00 MB total
+[2014.07.11-23.12.19:717][374]LogMemory: 
+[2014.07.11-23.12.19:717][374]Allocator Stats for TBB: (not implemented)
+[2014.07.11-23.12.19:718][374]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.11-23.12.19:774][374]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.11-23.12.19:781][374]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.11-16.12.19
+[2014.07.11-23.12.19:782][374]LogWorld: Bringing up level for play took: 0.006633
+[2014.07.11-23.12.19:783][374]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/MyGame.MyGame_C)
+[2014.07.11-23.12.19:804][374]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/MyGame.MyGame_C
+[2014.07.11-23.12.19:845][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D51CAE0
+[2014.07.11-23.12.19:847][374]Cmd: MEM
+[2014.07.11-23.12.19:887][374]LogMemory: Platform Memory Stats for Windows
+[2014.07.11-23.12.19:887][374]LogMemory: Process Physical Memory: 585.71 MB used, 605.76 MB peak
+[2014.07.11-23.12.19:887][374]LogMemory: Process Virtual Memory: 504.36 MB used, 524.54 MB peak
+[2014.07.11-23.12.19:887][374]LogMemory: Physical Memory: 6030.46 MB used, 12184.70 MB total
+[2014.07.11-23.12.19:887][374]LogMemory: Virtual Memory: 1030.00 MB used, 8388608.00 MB total
+[2014.07.11-23.12.19:887][374]LogMemory: 
+[2014.07.11-23.12.19:887][374]Allocator Stats for TBB: (not implemented)
+[2014.07.11-23.12.19:888][374]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.11-23.12.19:945][374]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_3_Example_Map.Example_Map. OwningWorld: None
+[2014.07.11-23.12.19:952][374]LogWorld: Bringing World /Game/Maps/UEDPIE_3_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.11-16.12.19
+[2014.07.11-23.12.19:952][374]LogWorld: Bringing up level for play took: 0.006681
+[2014.07.11-23.12.20:051][375]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.11-23.12.20:056][375]LogGameMode: RestartPlayer 259
+[2014.07.11-23.12.20:059][375]LogNet: Join succeeded: 259
+[2014.07.11-23.12.20:059][375]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.11-23.12.20:060][375]LogGameMode: RestartPlayer 260
+[2014.07.11-23.12.20:064][375]LogNet: Join succeeded: 260
+[2014.07.11-23.12.20:076][375]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.11-23.12.20:076][375]LogNet: PlayerController_C_4 setplayer LocalPlayer_1
+[2014.07.11-23.12.20:076][375]LogPlayerController: ClientRestart_Implementation None
+[2014.07.11-23.12.20:091][375]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.11-23.12.20:091][375]LogNet: PlayerController_C_5 setplayer LocalPlayer_2
+[2014.07.11-23.12.20:091][375]LogPlayerController: ClientRestart_Implementation None
+[2014.07.11-23.12.20:147][376]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:0]
+[2014.07.11-23.12.20:158][376]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:0]
+[2014.07.11-23.12.20:798][384]LogPlayerController: ClientRetryClientRestart_Implementation MyCharacter_C_4, AcknowledgedPawn: None
+[2014.07.11-23.12.20:798][384]LogPlayerController: ClientRestart_Implementation MyCharacter_C_4
+[2014.07.11-23.12.20:800][384]LogPlayerController: ClientRetryClientRestart_Implementation MyCharacter_C_8, AcknowledgedPawn: None
+[2014.07.11-23.12.20:800][384]LogPlayerController: ClientRestart_Implementation MyCharacter_C_8
+[2014.07.11-23.12.20:877][385]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_1
+[2014.07.11-23.12.20:877][385]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_2
+[2014.07.11-23.12.25:675][439]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_C_3] [PlayerController_C_3]. ChIndex == 0. Closing connection.
+[2014.07.11-23.12.25:675][439]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, PC: PlayerController_C_3, Owner: PlayerController_C_3, Channels: 12, RemoteAddr: 127.0.0.1:61313, Time: 2014.07.11-23.12.25
+[2014.07.11-23.12.25:675][439]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2014.07.11-23.12.25:675][439]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_C_2] [PlayerController_C_2]. ChIndex == 0. Closing connection.
+[2014.07.11-23.12.25:675][439]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, PC: PlayerController_C_2, Owner: PlayerController_C_2, Channels: 12, RemoteAddr: 127.0.0.1:61312, Time: 2014.07.11-23.12.25
+[2014.07.11-23.12.25:675][439]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2014.07.11-23.12.25:675][439]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_C_5] [PlayerController_C_5]. ChIndex == 0. Closing connection.
+[2014.07.11-23.12.25:675][439]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, PC: PlayerController_C_5, Owner: PlayerController_C_5, Channels: 12, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.11-23.12.25
+[2014.07.11-23.12.25:676][439]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2014.07.11-23.12.25:678][439]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_C_4] [PlayerController_C_4]. ChIndex == 0. Closing connection.
+[2014.07.11-23.12.25:678][439]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: PlayerController_C_4, Owner: PlayerController_C_4, Channels: 12, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.11-23.12.25
+[2014.07.11-23.12.25:678][439]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2014.07.11-23.12.25:698][439]LogExit: GameNetDriver None shut down
+[2014.07.11-23.12.25:698][439]LogExit: GameNetDriver None shut down
+[2014.07.11-23.12.25:699][439]LogExit: GameNetDriver None shut down
+[2014.07.11-23.12.25:699][439]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FEEC220
+[2014.07.11-23.12.25:700][439]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D9D5A80
+[2014.07.11-23.12.25:710][439]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D9D7600
+[2014.07.11-23.12.48:229][189]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.11-23.12.48:231][189]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MyGame.MyGame:EventGraph.K2Node_MacroInstance_1291.EdGraphPin_7500) from referencer (EdGraphPin /Game/Blueprints/PlayerController.PlayerController:EventGraph.K2Node_CustomEvent_91.EdGraphPin_7361).  Import failed...
+[2014.07.11-23.12.48:231][189]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_1291.EdGraphPin_7500"''
+[2014.07.11-23.12.48:231][189]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyGame.MyGame:EventGraph.K2Node_CallFunction_53758 or K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:SpawnPlayer.K2Node_CallFunction_53758
+[2014.07.11-23.12.48:231][189]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MyGame.MyGame:EventGraph.K2Node_CallFunction_53758.EdGraphPin_7428) from referencer (EdGraphPin /Game/Blueprints/PlayerController.PlayerController:EventGraph.K2Node_CustomEvent_91.EdGraphPin_7362).  Import failed...
+[2014.07.11-23.12.48:231][189]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_53758.EdGraphPin_7428"''
+[2014.07.11-23.12.48:232][189]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MyGame.MyGame:EventGraph.K2Node_MacroInstance_1291.EdGraphPin_7501) from referencer (EdGraphPin /Game/Blueprints/PlayerController.PlayerController:EventGraph.K2Node_CustomEvent_91.EdGraphPin_7362).  Import failed...
+[2014.07.11-23.12.48:232][189]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_1291.EdGraphPin_7501"''
+[2014.07.11-23.12.48:232][189]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MyGame.MyGame:EventGraph.K2Node_SpawnActorFromClass_146.EdGraphPin_7524) from referencer (EdGraphPin /Game/Blueprints/PlayerController.PlayerController:EventGraph.K2Node_CustomEvent_91.EdGraphPin_7363).  Import failed...
+[2014.07.11-23.12.48:232][189]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SpawnActorFromClass_146.EdGraphPin_7524"''
+[2014.07.11-23.13.20:562][ 67]BlueprintLog: New page: Compile MyGame
+[2014.07.11-23.13.20:672][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.07.11-23.13.20:672][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.07.11-23.13.20:672][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.07.11-23.13.20:726][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D81C7C0
+[2014.07.11-23.13.21:958][ 67]BlueprintEditorCompileResults: Info [0506.44] Compile of MyGame successful! [in 7 ms]
+[2014.07.11-23.13.23:284][100]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.13.23:361][100]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyGame.uasset' is not a working copy
+[2014.07.11-23.13.23:401][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGame" FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" SILENT=true
+[2014.07.11-23.13.23:530][100]LogSavePackage: Save=51.203575ms
+[2014.07.11-23.13.23:530][100]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/MyGame4C66C128420DF880A706728931C8D615.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset'
+[2014.07.11-23.13.54:372][962]BlueprintLog: New page: Compile MyGame
+[2014.07.11-23.13.54:484][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.07.11-23.13.54:484][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.07.11-23.13.54:484][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.07.11-23.13.55:788][962]BlueprintEditorCompileResults: Info [0540.26] Compile of MyGame successful! [in 10 ms]
+[2014.07.11-23.18.20:544][ 44]BlueprintLog: New page: Compile PlayerController
+[2014.07.11-23.18.20:666][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.07.11-23.18.20:666][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2014.07.11-23.18.20:666][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2014.07.11-23.18.20:719][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D8618A0
+[2014.07.11-23.18.20:729][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A77E2A0
+[2014.07.11-23.18.21:310][ 44]BlueprintEditorCompileResults: Info [0806.42] Compile of PlayerController successful! [in 7 ms]
+[2014.07.11-23.18.22:121][ 62]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.18.22:214][ 62]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\PlayerController.uasset' is not a working copy
+[2014.07.11-23.18.22:253][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerController" FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" SILENT=true
+[2014.07.11-23.18.22:399][ 62]LogSavePackage: Save=58.600922ms
+[2014.07.11-23.18.22:399][ 62]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/PlayerController6EF0D86948AD40375EFDE1A92908DC7F.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset'
+[2014.07.11-23.19.28:862][ 70]BlueprintLog: New page: Compile MyGame
+[2014.07.11-23.19.28:959][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.07.11-23.19.28:959][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
+[2014.07.11-23.19.28:959][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_15) Not registered. Aborting.
+[2014.07.11-23.19.29:003][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A8CA0C0
+[2014.07.11-23.19.29:593][ 70]BlueprintEditorCompileResults: Info [0874.73] Compile of MyGame successful! [in 7 ms]
+[2014.07.11-23.19.30:411][ 90]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.19.30:473][ 90]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyGame.uasset' is not a working copy
+[2014.07.11-23.19.30:518][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGame" FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" SILENT=true
+[2014.07.11-23.19.30:614][ 90]LogSavePackage: Save=42.478294ms
+[2014.07.11-23.19.30:614][ 90]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/MyGame7768800C4F3E3FE21C0DAE9C4EC0CC74.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset'
+[2014.07.11-23.20.07:663][266]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-23.20.07:668][266]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-23.22.15:240][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.07.11-23.22.15:240][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_16) Not registered. Aborting.
+[2014.07.11-23.22.15:240][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
+[2014.07.11-23.22.15:292][308]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.052
+[2014.07.11-23.22.56:365][521]BlueprintLog: New page: Compile PlayerController
+[2014.07.11-23.22.56:467][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.07.11-23.22.56:467][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
+[2014.07.11-23.22.56:467][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
+[2014.07.11-23.22.57:654][521]BlueprintEditorCompileResults: Info [1082.23] Compile of PlayerController successful! [in 6 ms]
+[2014.07.11-23.22.58:192][532]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.22.58:291][532]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\PlayerController.uasset' is not a working copy
+[2014.07.11-23.22.58:325][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerController" FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" SILENT=true
+[2014.07.11-23.22.58:455][532]LogSavePackage: Save=52.343655ms
+[2014.07.11-23.22.58:455][532]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/PlayerControllerDC9DE9B84873C6B0AD511696C2ED1D3C.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset'
+[2014.07.11-23.32.15:385][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.048
+[2014.07.11-23.35.07:743][878]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-23.35.07:748][878]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-23.42.15:406][961]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.045
+[2014.07.11-23.46.31:599][352]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Grenade.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyCharacter.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyGame.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyHUD.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/MyProjectile.uasset" "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/PlayerController.uasset" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.46.31:746][357]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\BP_Grenade.uasset' is not a working copy
+[2014.07.11-23.46.31:746][357]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyCharacter.uasset' is not a working copy
+[2014.07.11-23.46.31:746][357]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyGame.uasset' is not a working copy
+[2014.07.11-23.46.31:746][357]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyHUD.uasset' is not a working copy
+[2014.07.11-23.46.31:746][357]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\MyProjectile.uasset' is not a working copy
+[2014.07.11-23.46.31:746][357]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Blueprints\PlayerController.uasset' is not a working copy
+[2014.07.11-23.46.35:513][502]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --password ********'
+[2014.07.11-23.46.35:584][502]SourceControl: Info svn: warning: W155007: 'C:\Users\Eric\Documents\Unreal Projects\OrbitFPS\Content\Maps\Example_Map.umap' is not a working copy
+[2014.07.11-23.46.37:154][502]LogSavePackage: Save=1386.115723ms
+[2014.07.11-23.46.37:154][502]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Example_Map19928D4643929AAE9967939423DE8811.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap'
+[2014.07.11-23.46.39:138][533]Cmd: QUIT_EDITOR
+[2014.07.11-23.46.39:301][533]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.07.11-23.46.39:304][533]LogExit: Preparing to exit.
+[2014.07.11-23.46.40:055][533]LogExit: Editor shut down
+[2014.07.11-23.46.40:056][533]LogExit: Transaction tracking system shut down
+[2014.07.11-23.46.40:058][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE8FB00
+[2014.07.11-23.46.40:058][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A98A840
+[2014.07.11-23.46.40:059][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000250C7100
+[2014.07.11-23.46.40:060][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DF759E0
+[2014.07.11-23.46.40:107][533]LogExit: Object subsystem successfully closed.
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (164)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.07.11-23.46.40:245][533]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.07.11-23.46.40:246][533]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.07.11-23.46.40:246][533]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.07.11-23.46.40:254][533]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.07.11-23.46.40:254][533]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.07.11-23.46.40:254][533]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.07.11-23.46.40:254][533]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.07.11-23.46.40:254][533]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.07.11-23.46.40:254][533]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.07.11-23.46.40:255][533]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.07.11-23.46.40:256][533]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.07.11-23.46.40:257][533]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.07.11-23.46.40:394][533]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.07.11-23.46.40:395][533]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.07.11-23.46.40:395][533]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.07.11-23.46.40:395][533]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.07.11-23.46.40:395][533]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.07.11-23.46.40:395][533]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.07.11-23.46.40:395][533]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.07.11-23.46.40:395][533]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.07.11-23.46.40:586][533]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.07.11-23.46.40:586][533]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.07.11-23.46.40:586][533]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.07.11-23.46.40:586][533]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.07.11-23.46.40:586][533]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.07.11-23.46.40:586][533]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.07.11-23.46.40:588][533]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.07.11-23.46.40:588][533]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.07.11-23.46.40:588][533]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.07.11-23.46.40:588][533]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.07.11-23.46.40:588][533]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.07.11-23.46.40:588][533]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.07.11-23.46.40:588][533]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.07.11-23.46.40:589][533]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.07.11-23.46.40:589][533]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.07.11-23.46.40:589][533]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.07.11-23.46.40:593][533]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.07.11-23.46.40:674][533]LogDerivedDataCache: Shutdown
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.07.11-23.46.40:674][533]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.07.11-23.46.40:675][533]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.07.11-23.46.40:680][533]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.07.11-23.46.40:680][533]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.07.11-23.46.40:680][533]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.07.11-23.46.40:680][533]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.07.11-23.46.40:680][533]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.07.11-23.46.40:780][533]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.07.11-23.46.40:781][533]LogExit: Exiting.
+[2014.07.11-23.46.40:807][533]Log file closed, 07/11/14 16:46:40
