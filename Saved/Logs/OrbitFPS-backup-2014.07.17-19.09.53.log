@@ -1,0 +1,1319 @@
+Log file open, 07/16/14 21:40:23
+LogInit:Display: Running engine for game: OrbitFPS
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal E4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.17-04.40.23:330][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.07.17-04.40.23:372][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.17-04.40.23:397][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.17-04.40.23:413][  0]LogInit: Object subsystem initialized
+[2014.07.17-04.40.23:418][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.17-04.40.23:418][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.17-04.40.23:435][  0]LogInit: Computer: BEAST
+[2014.07.17-04.40.23:435][  0]LogInit: User: Eric
+[2014.07.17-04.40.23:437][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.07.17-04.40.23:437][  0]LogInit: High frequency timer resolution =2.241044 MHz
+[2014.07.17-04.40.23:437][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx) Virtual=8192.0GB
+[2014.07.17-04.40.23:438][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-04.40.23:438][  0]LogMemory: Process Physical Memory: 55.76 MB used, 55.76 MB peak
+[2014.07.17-04.40.23:438][  0]LogMemory: Process Virtual Memory: 32.12 MB used, 32.34 MB peak
+[2014.07.17-04.40.23:438][  0]LogMemory: Physical Memory: 3054.18 MB used, 12184.70 MB total
+[2014.07.17-04.40.23:438][  0]LogMemory: Virtual Memory: 235.34 MB used, 8388608.00 MB total
+[2014.07.17-04.40.23:543][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.07.17-04.40.23:543][  0]LogD3D11RHI: Adapter has 4040MB of dedicated video memory, 0MB of dedicated system memory, and 5836MB of shared system memory, 1 output[s]
+[2014.07.17-04.40.23:543][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.17-04.40.23:564][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.17-04.40.23:594][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.17-04.40.23:794][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.17-04.40.26:153][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.17-04.40.26:487][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.17-04.40.26:598][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.17-04.40.26:681][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.17-04.40.26:681][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.17-04.40.26:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.17-04.40.26:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.17-04.40.26:707][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.17-04.40.26:721][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.17-04.40.27:224][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.17-04.40.27:224][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.17-04.40.28:062][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.17-04.40.29:035][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.17-04.40.29:035][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.17-04.40.29:047][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.17-04.40.29:047][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.17-04.40.29:682][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.17-04.40.29:837][  0]SourceControl: Info Source control is disabled
+[2014.07.17-04.40.29:837][  0]SourceControl: Info Source control is disabled
+[2014.07.17-04.40.29:857][  0]SourceControl: Info Source control is disabled
+[2014.07.17-04.40.30:098][  0]BlueprintLog: New page: Editor Load
+[2014.07.17-04.40.30:206][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.07.17-04.40.30:206][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
+[2014.07.17-04.40.30:776][  0]LogEngine: Initializing Engine...
+[2014.07.17-04.40.31:031][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.07.17-04.40.31:106][  0]LogInit: FAudioDevice initialized.
+[2014.07.17-04.40.31:167][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Eric/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.17-04.40.31:173][  0]LogInit: Texture streaming: Enabled
+[2014.07.17-04.40.31:257][  0]LogInit: Transaction tracking system initialized
+[2014.07.17-04.40.31:597][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2014.07.17-04.40.32:095][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.17-04.40.32:114][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.17-04.40.32:268][  0]LogConsoleResponse:Display: 
+[2014.07.17-04.40.32:937][  0]SourceControl: Info Source control is disabled
+[2014.07.17-04.40.32:937][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.17-04.40.32:938][  0]LightingResults: New page: Lighting Build
+[2014.07.17-04.40.32:961][  0]MapCheck: New page: Map Check
+[2014.07.17-04.40.32:961][  0]LightingResults: New page: Lighting Build
+[2014.07.17-04.40.32:991][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000165D89A0
+[2014.07.17-04.40.33:628][  0]LogLinker:Warning: CreateExport: Failed to load Super for Function /Game/Character/HeroFPP_AnimBlueprint.HeroFPP_AnimBlueprint_C:KismetUpdateAnimation; removing super information, but keeping function
+[2014.07.17-04.40.34:748][  0]LogBlueprint:Warning: Node '/Game/Blueprints/BP_BrokenWallSconceSmokey.BP_BrokenWallSconceSmokey:EventGraph.K2Node_VariableGet_235' missing NodeGuid.
+[2014.07.17-04.40.34:993][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.17-04.40.34:994][  0]Cmd: MAP CHECKDEP
+[2014.07.17-04.40.34:994][  0]MapCheck: New page: Example_Map - Jul 16, 2014, 2:40:34 PM
+[2014.07.17-04.40.35:172][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [178.22ms] ==========
+[2014.07.17-04.40.35:173][  0]LogFileHelpers: Loading map 'Example_Map' took 2.235
+[2014.07.17-04.40.35:384][  0]LogCollectionManager: Loaded 0 collections in 0.002522 seconds
+[2014.07.17-04.40.35:797][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.17-04.40.35:799][  0]Cmd: MODE PLACEMENT
+[2014.07.17-04.40.35:925][  0]LogLoad: Full Startup: 14.77 seconds (BP compile: 0.96 seconds)
+[2014.07.17-04.40.35:942][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.17-04.40.36:103][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.07.17-04.40.36:159][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.07.17-04.40.36:578][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>06E17D3CDF83EE12</RequestId><HostId>CO38MJWbWcHKpbeuhVey9hXtNemerstI6BaCX73czWe7ArlYcauf59K+xQ0BXObM</HostId></Error>
+[2014.07.17-04.40.36:750][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3AA4D8A52415425B</RequestId><HostId>VEQEe9NGdhxhleYIkbmvgOvv13LIdspmGyWaQfwyhRnFWQLaT5IgBDuSXXVBL/S+</HostId></Error>
+[2014.07.17-04.40.36:794][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>84AA6FB040C8EF9E</RequestId><HostId>kA9tAFC1E3rc+NJTC7y3U9Obfm/mKfuuEqn9SRA7VcFg3c7kMpp4XIOz9rFO+a8C</HostId></Error>
+[2014.07.17-04.40.36:833][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C9B6321D33A75A74</RequestId><HostId>HBIH7tX9gymeRdVEvVAiZ62HMnTnPqzOUKQMylI6aFWiHEej1L/wBDEOWhd/7Y4e</HostId></Error>
+[2014.07.17-04.40.36:837][  4]LogAssetRegistry: Asset discovery search completed in 5.2490 seconds
+[2014.07.17-04.40.36:937][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>13B83012DC671C51</RequestId><HostId>tiAwxU5zuDacFA2lvfgnVtj1Wi8+ErZHanAdhdUiUrfYsQqqzfiOLCeJYJRKPBGY</HostId></Error>
+[2014.07.17-04.40.37:015][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-04.40.37:021][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-04.45.33:819][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:819][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:824][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:824][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:825][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:825][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:825][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:825][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:826][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:826][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:826][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:826][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:827][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:827][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:827][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:828][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:828][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.45.33:828][808]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.50.25:710][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.07.17-04.50.25:710][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.07.17-04.50.25:711][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.07.17-04.50.30:035][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.07.17-04.50.37:035][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.07.17-04.50.37:990][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.07.17-04.50.38:092][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002216FE20
+[2014.07.17-04.50.38:094][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237D4F40
+[2014.07.17-04.50.38:127][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.137
+[2014.07.17-04.50.38:156][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Orbit_PlayerCharacter] ([1] browsable assets)...
+[2014.07.17-04.50.38:217][597]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter]
+[2014.07.17-04.50.38:217][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_PlayerCharacter]
+[2014.07.17-04.50.39:509][597]LogSavePackage: Save=1045.474731ms
+[2014.07.17-04.50.39:509][597]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter_Auto167584FFC41DE42FDDF214A9818FDBFBD.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_PlayerCharacter_Auto1.uasset'
+[2014.07.17-04.50.39:546][597]LogFileHelpers: Auto-saving content packages took 1.419
+[2014.07.17-04.50.46:509][751]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-04.50.46:783][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.07.17-04.50.47:534][751]BlueprintEditorCompileResults: Info [0625.52] Compile of BP_Orbit_PlayerCharacter successful! [in 125 ms]
+[2014.07.17-04.51.22:921][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:922][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:922][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:922][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:923][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:923][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:924][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:924][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:924][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:925][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:925][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:925][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:926][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.22:926][724]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.51.54:892][590]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-04.51.55:184][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.07.17-04.51.55:908][590]BlueprintEditorCompileResults: Info [0693.91] Compile of BP_Orbit_PlayerCharacter successful! [in 132 ms]
+[2014.07.17-04.51.57:754][603]LogSavePackage: Save=1041.861694ms
+[2014.07.17-04.51.57:754][603]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter793A71E3431725DC09D10C935726FD9F.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-04.51.59:828][670]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-04.51.59:828][670]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 2:51:59 PM)
+[2014.07.17-04.51.59:906][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077710s)
+[2014.07.17-04.51.59:907][670]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2014.07.17-04.51.59:908][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.079214s)
+[2014.07.17-04.51.59:908][670]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-04.51.59:995][670]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-21.51.59
+[2014.07.17-04.51.59:996][670]LogWorld: Bringing up level for play took: 0.008080
+[2014.07.17-04.51.59:998][670]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.07.17-04.51.59:998][670]LogGameMode: RestartPlayer 256
+[2014.07.17-04.52.00:000][670]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-04.52.00:000][670]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-04.52.00:019][670]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.796
+[2014.07.17-04.52.00:020][670]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-04.52.00:026][670]LogInit: WinSock: I am Beast (192.168.1.2:0)
+[2014.07.17-04.52.00:026][670]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2014.07.17-04.52.00:027][670]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 2:52:00 PM)
+[2014.07.17-04.52.00:030][670]LogWorld: Game class is 'GameMode'
+[2014.07.17-04.52.00:093][670]LogWorld: Bringing World /Temp/Untitled_1.NewWorld up for play (max tick rate 0) at 2014.07.16-21.52.00
+[2014.07.17-04.52.00:094][670]LogWorld: Bringing up level for play took: 0.000894
+[2014.07.17-04.52.00:095][670]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-04.52.00:095][670]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.07.17-04.52.00:095][670]LogGameMode: RestartPlayer 257
+[2014.07.17-04.52.00:096][670]LogPlayerController: ClientRestart_Implementation DefaultPawn_0
+[2014.07.17-04.52.00:096][670]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_0
+[2014.07.17-04.52.00:111][670]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.889
+[2014.07.17-04.52.00:112][670]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-04.52.00:112][670]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-04.52.00:113][670]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-04.52.00:114][670]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-04.52.00:114][670]LogNet: Open Example_Map 07/16/14 21:52:00 127.0.0.1
+[2014.07.17-04.52.00:114][670]LogNet: Added client connection.  Remote address = 127.0.0.1:52530
+[2014.07.17-04.52.00:114][670]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-04.52.00:114][670]LogNet: Remote platform little endian=1
+[2014.07.17-04.52.00:114][670]LogNet: This platform little endian=1
+[2014.07.17-04.52.00:218][670]LogRenderer:Warning: Reallocating scene render targets to support 1296x904.
+[2014.07.17-04.52.00:313][670]LogRenderer:Warning: Reallocating scene render targets to support 1296x912.
+[2014.07.17-04.52.00:429][671]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-04.52.00:429][671]LogNet: Client netspeed is 10000
+[2014.07.17-04.52.00:432][671]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-04.52.00:544][671]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-04.52.00:548][671]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.07.17-04.52.00:623][671]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018C282C0
+[2014.07.17-04.52.00:630][671]Cmd: MEM
+[2014.07.17-04.52.00:673][671]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-04.52.00:673][671]LogMemory: Process Physical Memory: 509.74 MB used, 514.87 MB peak
+[2014.07.17-04.52.00:674][671]LogMemory: Process Virtual Memory: 429.96 MB used, 435.55 MB peak
+[2014.07.17-04.52.00:674][671]LogMemory: Physical Memory: 3933.80 MB used, 12184.70 MB total
+[2014.07.17-04.52.00:674][671]LogMemory: Virtual Memory: 961.19 MB used, 8388608.00 MB total
+[2014.07.17-04.52.00:674][671]LogMemory: 
+[2014.07.17-04.52.00:674][671]Allocator Stats for TBB: (not implemented)
+[2014.07.17-04.52.00:674][671]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-04.52.00:731][671]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-04.52.00:738][671]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-21.52.00
+[2014.07.17-04.52.00:739][671]LogWorld: Bringing up level for play took: 0.007009
+[2014.07.17-04.52.00:829][672]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-04.52.00:831][672]LogGameMode: RestartPlayer 258
+[2014.07.17-04.52.00:833][672]LogNet: Join succeeded: 258
+[2014.07.17-04.52.00:838][672]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-04.52.00:838][672]LogNet: BP_Orbit_PlayerController_C_2 setplayer LocalPlayer_1
+[2014.07.17-04.52.00:839][672]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.52.00:888][673]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:0]
+[2014.07.17-04.52.01:498][683]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2, AcknowledgedPawn: None
+[2014.07.17-04.52.01:498][683]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2
+[2014.07.17-04.52.01:555][684]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_1
+[2014.07.17-04.52.07:478][781]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-04.52.08:801][803]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-04.52.08:804][803]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-04.52.08:807][803]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.52.08:862][804]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5, AcknowledgedPawn: None
+[2014.07.17-04.52.08:862][804]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5
+[2014.07.17-04.52.08:923][805]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-04.52.16:725][930]LogCharacterMovement: BP_Orbit_PlayerCharacter_C_5 is stuck and failed to move!
+[2014.07.17-04.52.19:033][966]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-04.52.19:035][966]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-04.52.19:038][966]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.52.19:098][967]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_7, AcknowledgedPawn: None
+[2014.07.17-04.52.19:098][967]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_7
+[2014.07.17-04.52.19:157][968]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_6
+[2014.07.17-04.52.23:302][ 33]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_1] [BP_Orbit_PlayerController_C_1]. ChIndex == 0. Closing connection.
+[2014.07.17-04.52.23:302][ 33]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: BP_Orbit_PlayerController_C_1, Owner: BP_Orbit_PlayerController_C_1, Channels: 10, RemoteAddr: 127.0.0.1:52530, Time: 2014.07.17-04.52.23
+[2014.07.17-04.52.23:303][ 33]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2014.07.17-04.52.23:303][ 33]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_2] [BP_Orbit_PlayerController_C_2]. ChIndex == 0. Closing connection.
+[2014.07.17-04.52.23:303][ 33]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: BP_Orbit_PlayerController_C_2, Owner: BP_Orbit_PlayerController_C_2, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-04.52.23
+[2014.07.17-04.52.23:303][ 33]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2014.07.17-04.52.23:321][ 33]LogExit: GameNetDriver None shut down
+[2014.07.17-04.52.23:321][ 33]LogExit: GameNetDriver None shut down
+[2014.07.17-04.52.23:322][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237D5B20
+[2014.07.17-04.52.23:332][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F806D40
+[2014.07.17-04.55.36:151][808]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-04.55.36:157][808]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-04.56.30:091][264]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-04.56.30:373][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.07.17-04.56.30:373][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.07.17-04.56.30:373][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.07.17-04.56.31:123][264]BlueprintEditorCompileResults: Info [0969.10] Compile of BP_Orbit_PlayerCharacter successful! [in 130 ms]
+[2014.07.17-04.56.32:709][269]LogSavePackage: Save=1031.131958ms
+[2014.07.17-04.56.32:709][269]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacterEFB1A35F4E3C465AE382A0AA800E6A5F.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-04.57.03:793][171]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-04.57.03:793][171]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 2:57:03 PM)
+[2014.07.17-04.57.03:856][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062613s)
+[2014.07.17-04.57.03:857][171]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2014.07.17-04.57.03:857][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.064038s)
+[2014.07.17-04.57.03:857][171]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-04.57.03:925][171]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-21.57.03
+[2014.07.17-04.57.03:926][171]LogWorld: Bringing up level for play took: 0.007576
+[2014.07.17-04.57.03:927][171]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.07.17-04.57.03:928][171]LogGameMode: RestartPlayer 259
+[2014.07.17-04.57.03:930][171]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-04.57.03:930][171]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-04.57.03:943][171]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.716
+[2014.07.17-04.57.03:945][171]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-04.57.03:946][171]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2014.07.17-04.57.03:947][171]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 2:57:03 PM)
+[2014.07.17-04.57.03:949][171]LogWorld: Game class is 'GameMode'
+[2014.07.17-04.57.04:006][171]LogWorld: Bringing World /Temp/Untitled_2.NewWorld up for play (max tick rate 0) at 2014.07.16-21.57.04
+[2014.07.17-04.57.04:006][171]LogWorld: Bringing up level for play took: 0.000956
+[2014.07.17-04.57.04:007][171]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-04.57.04:008][171]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
+[2014.07.17-04.57.04:008][171]LogGameMode: RestartPlayer 260
+[2014.07.17-04.57.04:008][171]LogPlayerController: ClientRestart_Implementation DefaultPawn_1
+[2014.07.17-04.57.04:008][171]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_1
+[2014.07.17-04.57.04:020][171]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.793
+[2014.07.17-04.57.04:021][171]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-04.57.04:021][171]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-04.57.04:022][171]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-04.57.04:023][171]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-04.57.04:023][171]LogNet: Open Example_Map 07/16/14 21:57:04 127.0.0.1
+[2014.07.17-04.57.04:023][171]LogNet: Added client connection.  Remote address = 127.0.0.1:49155
+[2014.07.17-04.57.04:023][171]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-04.57.04:023][171]LogNet: Remote platform little endian=1
+[2014.07.17-04.57.04:023][171]LogNet: This platform little endian=1
+[2014.07.17-04.57.04:239][172]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-04.57.04:239][172]LogNet: Client netspeed is 10000
+[2014.07.17-04.57.04:242][172]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-04.57.04:328][172]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-04.57.04:329][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.07.17-04.57.04:330][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.07.17-04.57.04:330][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.07.17-04.57.04:403][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E5AE80
+[2014.07.17-04.57.04:403][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237D5580
+[2014.07.17-04.57.04:404][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237D5940
+[2014.07.17-04.57.04:410][172]Cmd: MEM
+[2014.07.17-04.57.04:452][172]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-04.57.04:452][172]LogMemory: Process Physical Memory: 544.93 MB used, 562.37 MB peak
+[2014.07.17-04.57.04:452][172]LogMemory: Process Virtual Memory: 459.06 MB used, 475.77 MB peak
+[2014.07.17-04.57.04:452][172]LogMemory: Physical Memory: 3956.64 MB used, 12184.70 MB total
+[2014.07.17-04.57.04:452][172]LogMemory: Virtual Memory: 992.02 MB used, 8388608.00 MB total
+[2014.07.17-04.57.04:452][172]LogMemory: 
+[2014.07.17-04.57.04:452][172]Allocator Stats for TBB: (not implemented)
+[2014.07.17-04.57.04:453][172]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-04.57.04:510][172]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-04.57.04:517][172]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-21.57.04
+[2014.07.17-04.57.04:518][172]LogWorld: Bringing up level for play took: 0.007082
+[2014.07.17-04.57.04:586][173]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-04.57.04:587][173]LogGameMode: RestartPlayer 261
+[2014.07.17-04.57.04:589][173]LogNet: Join succeeded: 261
+[2014.07.17-04.57.04:594][173]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-04.57.04:594][173]LogNet: BP_Orbit_PlayerController_C_5 setplayer LocalPlayer_3
+[2014.07.17-04.57.04:594][173]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.57.04:636][174]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:0]
+[2014.07.17-04.57.05:230][184]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2, AcknowledgedPawn: None
+[2014.07.17-04.57.05:230][184]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2
+[2014.07.17-04.57.05:293][185]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_1
+[2014.07.17-04.57.08:160][233]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-04.57.09:040][248]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-04.57.09:043][248]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-04.57.09:046][248]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.57.09:099][249]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5, AcknowledgedPawn: None
+[2014.07.17-04.57.09:099][249]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5
+[2014.07.17-04.57.09:165][250]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-04.57.13:896][328]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-04.57.14:299][335]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-04.57.14:301][335]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-04.57.14:304][335]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.57.14:360][336]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_7, AcknowledgedPawn: None
+[2014.07.17-04.57.14:361][336]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_7
+[2014.07.17-04.57.14:421][337]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_6
+[2014.07.17-04.57.15:514][352]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_4] [BP_Orbit_PlayerController_C_4]. ChIndex == 0. Closing connection.
+[2014.07.17-04.57.15:514][352]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: BP_Orbit_PlayerController_C_4, Owner: BP_Orbit_PlayerController_C_4, Channels: 10, RemoteAddr: 127.0.0.1:49155, Time: 2014.07.17-04.57.15
+[2014.07.17-04.57.15:514][352]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2014.07.17-04.57.15:514][352]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_5] [BP_Orbit_PlayerController_C_5]. ChIndex == 0. Closing connection.
+[2014.07.17-04.57.15:514][352]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: BP_Orbit_PlayerController_C_5, Owner: BP_Orbit_PlayerController_C_5, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-04.57.15
+[2014.07.17-04.57.15:515][352]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2014.07.17-04.57.15:532][352]LogExit: GameNetDriver None shut down
+[2014.07.17-04.57.15:532][352]LogExit: GameNetDriver None shut down
+[2014.07.17-04.57.15:532][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B06A8E0
+[2014.07.17-04.57.15:544][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E59C60
+[2014.07.17-04.57.55:417][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.07.17-04.57.55:417][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.07.17-04.57.55:418][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.07.17-04.58.10:459][798]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.58.10:460][798]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-04.58.13:317][868]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-04.58.13:602][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.07.17-04.58.14:324][868]BlueprintEditorCompileResults: Info [1072.33] Compile of BP_Orbit_PlayerCharacter successful! [in 132 ms]
+[2014.07.17-04.58.16:655][893]LogSavePackage: Save=1048.265015ms
+[2014.07.17-04.58.16:655][893]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter7BD0A376470E292580DBACB3BB746612.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-04.58.25:249][133]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-04.58.25:250][133]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 2:58:25 PM)
+[2014.07.17-04.58.25:311][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061021s)
+[2014.07.17-04.58.25:312][133]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2014.07.17-04.58.25:312][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.062449s)
+[2014.07.17-04.58.25:312][133]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-04.58.25:383][133]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-21.58.25
+[2014.07.17-04.58.25:384][133]LogWorld: Bringing up level for play took: 0.007775
+[2014.07.17-04.58.25:385][133]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
+[2014.07.17-04.58.25:385][133]LogGameMode: RestartPlayer 262
+[2014.07.17-04.58.25:387][133]LogBlueprintUserMessages: Hello
+[2014.07.17-04.58.25:387][133]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-04.58.25:387][133]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-04.58.25:394][133]LogBlueprintUserMessages: Hello
+[2014.07.17-04.58.25:406][133]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.177
+[2014.07.17-04.58.25:407][133]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-04.58.25:408][133]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2014.07.17-04.58.25:408][133]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 2:58:25 PM)
+[2014.07.17-04.58.25:410][133]LogWorld: Game class is 'GameMode'
+[2014.07.17-04.58.25:469][133]LogWorld: Bringing World /Temp/Untitled_3.NewWorld up for play (max tick rate 0) at 2014.07.16-21.58.25
+[2014.07.17-04.58.25:470][133]LogWorld: Bringing up level for play took: 0.001280
+[2014.07.17-04.58.25:471][133]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-04.58.25:472][133]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
+[2014.07.17-04.58.25:472][133]LogGameMode: RestartPlayer 263
+[2014.07.17-04.58.25:473][133]LogPlayerController: ClientRestart_Implementation DefaultPawn_2
+[2014.07.17-04.58.25:473][133]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_2
+[2014.07.17-04.58.25:490][133]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.26
+[2014.07.17-04.58.25:490][133]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-04.58.25:491][133]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-04.58.25:492][133]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-04.58.25:492][133]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-04.58.25:492][133]LogNet: Open Example_Map 07/16/14 21:58:25 127.0.0.1
+[2014.07.17-04.58.25:493][133]LogNet: Added client connection.  Remote address = 127.0.0.1:56931
+[2014.07.17-04.58.25:493][133]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-04.58.25:493][133]LogNet: Remote platform little endian=1
+[2014.07.17-04.58.25:493][133]LogNet: This platform little endian=1
+[2014.07.17-04.58.25:709][134]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-04.58.25:709][134]LogNet: Client netspeed is 10000
+[2014.07.17-04.58.25:713][134]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-04.58.25:795][134]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-04.58.25:797][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.07.17-04.58.25:871][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000006346C00
+[2014.07.17-04.58.25:877][134]Cmd: MEM
+[2014.07.17-04.58.25:920][134]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-04.58.25:920][134]LogMemory: Process Physical Memory: 567.08 MB used, 577.29 MB peak
+[2014.07.17-04.58.25:920][134]LogMemory: Process Virtual Memory: 480.62 MB used, 490.33 MB peak
+[2014.07.17-04.58.25:920][134]LogMemory: Physical Memory: 3991.73 MB used, 12184.70 MB total
+[2014.07.17-04.58.25:920][134]LogMemory: Virtual Memory: 1015.81 MB used, 8388608.00 MB total
+[2014.07.17-04.58.25:920][134]LogMemory: 
+[2014.07.17-04.58.25:920][134]Allocator Stats for TBB: (not implemented)
+[2014.07.17-04.58.25:921][134]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-04.58.25:977][134]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-04.58.25:984][134]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-21.58.25
+[2014.07.17-04.58.25:985][134]LogWorld: Bringing up level for play took: 0.007463
+[2014.07.17-04.58.26:056][135]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-04.58.26:058][135]LogGameMode: RestartPlayer 264
+[2014.07.17-04.58.26:059][135]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-04.58.26:060][135]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-04.58.26:060][135]LogNet: Join succeeded: 264
+[2014.07.17-04.58.26:065][135]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-04.58.26:065][135]LogNet: BP_Orbit_PlayerController_C_8 setplayer LocalPlayer_5
+[2014.07.17-04.58.26:065][135]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.58.26:118][136]LogPlayerController: Spawned spectator SpectatorPawn_8 [server:0]
+[2014.07.17-04.58.26:726][146]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2, AcknowledgedPawn: None
+[2014.07.17-04.58.26:726][146]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2
+[2014.07.17-04.58.26:782][147]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_1
+[2014.07.17-04.58.29:241][187]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-04.58.29:242][187]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-04.58.30:925][215]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-04.58.30:927][215]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-04.58.30:927][215]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-04.58.30:927][215]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-04.58.30:930][215]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-04.58.30:985][216]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5, AcknowledgedPawn: None
+[2014.07.17-04.58.30:985][216]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5
+[2014.07.17-04.58.31:045][217]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-04.58.34:344][268]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_7] [BP_Orbit_PlayerController_C_7]. ChIndex == 0. Closing connection.
+[2014.07.17-04.58.34:344][268]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: BP_Orbit_PlayerController_C_7, Owner: BP_Orbit_PlayerController_C_7, Channels: 10, RemoteAddr: 127.0.0.1:56931, Time: 2014.07.17-04.58.34
+[2014.07.17-04.58.34:344][268]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2014.07.17-04.58.34:344][268]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_8] [BP_Orbit_PlayerController_C_8]. ChIndex == 0. Closing connection.
+[2014.07.17-04.58.34:344][268]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: BP_Orbit_PlayerController_C_8, Owner: BP_Orbit_PlayerController_C_8, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-04.58.34
+[2014.07.17-04.58.34:344][268]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2014.07.17-04.58.34:360][268]LogExit: GameNetDriver None shut down
+[2014.07.17-04.58.34:360][268]LogExit: GameNetDriver None shut down
+[2014.07.17-04.58.34:361][268]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000006344CC0
+[2014.07.17-04.58.34:370][268]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E5BA60
+[2014.07.17-04.59.15:966][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.07.17-04.59.15:966][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.07.17-04.59.15:966][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.07.17-04.59.21:254][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.07.17-05.01.31:144][567]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-05.01.51:845][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.07.17-05.01.51:906][171]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.061
+[2014.07.17-05.01.51:935][171]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Orbit_PlayerCharacter] ([1] browsable assets)...
+[2014.07.17-05.01.51:993][171]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter]
+[2014.07.17-05.01.51:993][171]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_PlayerCharacter]
+[2014.07.17-05.01.53:239][171]LogSavePackage: Save=1040.315186ms
+[2014.07.17-05.01.53:239][171]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter_Auto2975B19F14F3CBCF52E6700865881E7A2.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_PlayerCharacter_Auto2.uasset'
+[2014.07.17-05.01.53:257][171]LogFileHelpers: Auto-saving content packages took 1.351
+[2014.07.17-05.02.45:876][663]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.17-05.03.10:898][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.07.17-05.03.27:191][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.07.17-05.03.32:558][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.07.17-05.03.55:682][683]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-05.03.55:985][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.07.17-05.03.56:703][683]BlueprintEditorCompileResults: Info [1414.69] Compile of BP_Orbit_PlayerCharacter successful! [in 134 ms]
+[2014.07.17-05.05.20:878][169]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-05.05.21:180][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.07.17-05.05.21:937][169]BlueprintEditorCompileResults: Info [1499.88] Compile of BP_Orbit_PlayerCharacter successful! [in 133 ms]
+[2014.07.17-05.05.24:098][191]LogSavePackage: Save=1056.518799ms
+[2014.07.17-05.05.24:098][191]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacterC0F97F0243CE5EB70FF18D804F399B76.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-05.05.33:889][499]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-05.05.33:889][499]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:05:33 PM)
+[2014.07.17-05.05.33:958][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069154s)
+[2014.07.17-05.05.33:960][499]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2014.07.17-05.05.33:960][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.071198s)
+[2014.07.17-05.05.33:960][499]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-05.05.34:029][499]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.05.34
+[2014.07.17-05.05.34:030][499]LogWorld: Bringing up level for play took: 0.008510
+[2014.07.17-05.05.34:031][499]LogPlayerController: Spawned spectator SpectatorPawn_9 [server:1]
+[2014.07.17-05.05.34:031][499]LogGameMode: RestartPlayer 265
+[2014.07.17-05.05.34:033][499]LogBlueprintUserMessages: Hello
+[2014.07.17-05.05.34:033][499]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.05.34:033][499]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.05.34:040][499]LogBlueprintUserMessages: Enabling HUD
+[2014.07.17-05.05.34:047][499]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.81
+[2014.07.17-05.05.34:048][499]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-05.05.34:049][499]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2014.07.17-05.05.34:050][499]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:05:34 PM)
+[2014.07.17-05.05.34:052][499]LogWorld: Game class is 'GameMode'
+[2014.07.17-05.05.34:112][499]LogWorld: Bringing World /Temp/Untitled_4.NewWorld up for play (max tick rate 0) at 2014.07.16-22.05.34
+[2014.07.17-05.05.34:112][499]LogWorld: Bringing up level for play took: 0.000828
+[2014.07.17-05.05.34:113][499]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-05.05.34:114][499]LogPlayerController: Spawned spectator SpectatorPawn_10 [server:1]
+[2014.07.17-05.05.34:114][499]LogGameMode: RestartPlayer 266
+[2014.07.17-05.05.34:114][499]LogPlayerController: ClientRestart_Implementation DefaultPawn_3
+[2014.07.17-05.05.34:114][499]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_3
+[2014.07.17-05.05.34:126][499]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.889
+[2014.07.17-05.05.34:126][499]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-05.05.34:127][499]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-05.05.34:128][499]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-05.05.34:128][499]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-05.05.34:129][499]LogNet: Open Example_Map 07/16/14 22:05:34 127.0.0.1
+[2014.07.17-05.05.34:129][499]LogNet: Added client connection.  Remote address = 127.0.0.1:50449
+[2014.07.17-05.05.34:129][499]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-05.05.34:129][499]LogNet: Remote platform little endian=1
+[2014.07.17-05.05.34:129][499]LogNet: This platform little endian=1
+[2014.07.17-05.05.34:337][500]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-05.05.34:337][500]LogNet: Client netspeed is 10000
+[2014.07.17-05.05.34:340][500]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-05.05.34:428][500]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-05.05.34:433][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.07.17-05.05.34:511][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003055CCC0
+[2014.07.17-05.05.34:512][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD78720
+[2014.07.17-05.05.34:523][500]Cmd: MEM
+[2014.07.17-05.05.34:564][500]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-05.05.34:564][500]LogMemory: Process Physical Memory: 703.91 MB used, 721.67 MB peak
+[2014.07.17-05.05.34:564][500]LogMemory: Process Virtual Memory: 620.23 MB used, 636.81 MB peak
+[2014.07.17-05.05.34:564][500]LogMemory: Physical Memory: 4112.36 MB used, 12184.70 MB total
+[2014.07.17-05.05.34:564][500]LogMemory: Virtual Memory: 1139.50 MB used, 8388608.00 MB total
+[2014.07.17-05.05.34:564][500]LogMemory: 
+[2014.07.17-05.05.34:564][500]Allocator Stats for TBB: (not implemented)
+[2014.07.17-05.05.34:565][500]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-05.05.34:623][500]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-05.05.34:630][500]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.05.34
+[2014.07.17-05.05.34:631][500]LogWorld: Bringing up level for play took: 0.006868
+[2014.07.17-05.05.34:701][501]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-05.05.34:703][501]LogGameMode: RestartPlayer 267
+[2014.07.17-05.05.34:705][501]LogScript:Warning: Accessed None 'CallFunc_GetController_ReturnValue'
+	BP_Orbit_PlayerCharacter_C /Game/Maps/UEDPIE_1_Example_Map.Example_Map:PersistentLevel.BP_Orbit_PlayerCharacter_C_1
+	Function /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter_C:setHUD:0098
+[2014.07.17-05.05.34:705][501]PIE:Error: Error Accessed None 'CallFunc_GetController_ReturnValue' from node Set HUD in blueprint BP_Orbit_PlayerCharacter
+[2014.07.17-05.05.34:705][501]LogScript:Warning: Accessed None 'CallFunc_CastToPlayerController_ReturnValue'
+	BP_Orbit_PlayerCharacter_C /Game/Maps/UEDPIE_1_Example_Map.Example_Map:PersistentLevel.BP_Orbit_PlayerCharacter_C_1
+	Function /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter_C:setHUD:00C9
+[2014.07.17-05.05.34:706][501]PIE:Error: Error Accessed None 'CallFunc_CastToPlayerController_ReturnValue' from node Set HUD in blueprint BP_Orbit_PlayerCharacter
+[2014.07.17-05.05.34:706][501]LogBlueprintUserMessages: Server: Nope... 2
+[2014.07.17-05.05.34:706][501]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-05.05.34:706][501]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-05.05.34:706][501]LogNet: Join succeeded: 267
+[2014.07.17-05.05.34:711][501]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-05.05.34:711][501]LogNet: BP_Orbit_PlayerController_C_11 setplayer LocalPlayer_7
+[2014.07.17-05.05.34:712][501]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.05.34:755][502]LogPlayerController: Spawned spectator SpectatorPawn_11 [server:0]
+[2014.07.17-05.05.35:336][512]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2, AcknowledgedPawn: None
+[2014.07.17-05.05.35:336][512]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2
+[2014.07.17-05.05.35:399][513]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_1
+[2014.07.17-05.05.37:962][555]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_10] [BP_Orbit_PlayerController_C_10]. ChIndex == 0. Closing connection.
+[2014.07.17-05.05.37:962][555]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, PC: BP_Orbit_PlayerController_C_10, Owner: BP_Orbit_PlayerController_C_10, Channels: 10, RemoteAddr: 127.0.0.1:50449, Time: 2014.07.17-05.05.37
+[2014.07.17-05.05.37:962][555]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2014.07.17-05.05.37:962][555]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_11] [BP_Orbit_PlayerController_C_11]. ChIndex == 0. Closing connection.
+[2014.07.17-05.05.37:962][555]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, PC: BP_Orbit_PlayerController_C_11, Owner: BP_Orbit_PlayerController_C_11, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-05.05.37
+[2014.07.17-05.05.37:962][555]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2014.07.17-05.05.37:977][555]LogExit: GameNetDriver None shut down
+[2014.07.17-05.05.37:977][555]LogExit: GameNetDriver None shut down
+[2014.07.17-05.05.37:978][555]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003055F1A0
+[2014.07.17-05.05.37:994][555]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD79F80
+[2014.07.17-05.05.39:091][584]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-05.05.39:091][584]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:05:39 PM)
+[2014.07.17-05.05.39:153][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061619s)
+[2014.07.17-05.05.39:154][584]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2014.07.17-05.05.39:154][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.063096s)
+[2014.07.17-05.05.39:154][584]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-05.05.39:224][584]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.05.39
+[2014.07.17-05.05.39:225][584]LogWorld: Bringing up level for play took: 0.011202
+[2014.07.17-05.05.39:226][584]LogPlayerController: Spawned spectator SpectatorPawn_12 [server:1]
+[2014.07.17-05.05.39:227][584]LogGameMode: RestartPlayer 268
+[2014.07.17-05.05.39:228][584]LogBlueprintUserMessages: Hello
+[2014.07.17-05.05.39:228][584]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-05.05.39:229][584]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-05.05.39:235][584]LogBlueprintUserMessages: Enabling HUD
+[2014.07.17-05.05.39:243][584]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.005
+[2014.07.17-05.05.39:244][584]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-05.05.39:245][584]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2014.07.17-05.05.39:245][584]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:05:39 PM)
+[2014.07.17-05.05.39:248][584]LogWorld: Game class is 'GameMode'
+[2014.07.17-05.05.39:312][584]LogWorld: Bringing World /Temp/Untitled_5.NewWorld up for play (max tick rate 0) at 2014.07.16-22.05.39
+[2014.07.17-05.05.39:312][584]LogWorld: Bringing up level for play took: 0.000907
+[2014.07.17-05.05.39:313][584]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-05.05.39:314][584]LogPlayerController: Spawned spectator SpectatorPawn_13 [server:1]
+[2014.07.17-05.05.39:314][584]LogGameMode: RestartPlayer 269
+[2014.07.17-05.05.39:314][584]LogPlayerController: ClientRestart_Implementation DefaultPawn_4
+[2014.07.17-05.05.39:314][584]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_4
+[2014.07.17-05.05.39:326][584]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.089
+[2014.07.17-05.05.39:327][584]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-05.05.39:327][584]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-05.05.39:328][584]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-05.05.39:328][584]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-05.05.39:329][584]LogNet: Open Example_Map 07/16/14 22:05:39 127.0.0.1
+[2014.07.17-05.05.39:329][584]LogNet: Added client connection.  Remote address = 127.0.0.1:50450
+[2014.07.17-05.05.39:329][584]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-05.05.39:329][584]LogNet: Remote platform little endian=1
+[2014.07.17-05.05.39:329][584]LogNet: This platform little endian=1
+[2014.07.17-05.05.39:520][585]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-05.05.39:521][585]LogNet: Client netspeed is 10000
+[2014.07.17-05.05.39:523][585]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-05.05.39:606][585]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-05.05.39:679][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000321FECA0
+[2014.07.17-05.05.39:681][585]Cmd: MEM
+[2014.07.17-05.05.39:720][585]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-05.05.39:720][585]LogMemory: Process Physical Memory: 709.96 MB used, 732.03 MB peak
+[2014.07.17-05.05.39:720][585]LogMemory: Process Virtual Memory: 626.05 MB used, 648.49 MB peak
+[2014.07.17-05.05.39:721][585]LogMemory: Physical Memory: 4116.70 MB used, 12184.70 MB total
+[2014.07.17-05.05.39:721][585]LogMemory: Virtual Memory: 1145.07 MB used, 8388608.00 MB total
+[2014.07.17-05.05.39:721][585]LogMemory: 
+[2014.07.17-05.05.39:721][585]Allocator Stats for TBB: (not implemented)
+[2014.07.17-05.05.39:721][585]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-05.05.39:776][585]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-05.05.39:783][585]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.05.39
+[2014.07.17-05.05.39:784][585]LogWorld: Bringing up level for play took: 0.006895
+[2014.07.17-05.05.39:868][586]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-05.05.39:870][586]LogGameMode: RestartPlayer 270
+[2014.07.17-05.05.39:872][586]LogScript:Warning: Accessed None 'CallFunc_GetController_ReturnValue'
+	BP_Orbit_PlayerCharacter_C /Game/Maps/UEDPIE_1_Example_Map.Example_Map:PersistentLevel.BP_Orbit_PlayerCharacter_C_5
+	Function /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter_C:setHUD:0098
+[2014.07.17-05.05.39:873][586]PIE:Error: Error Accessed None 'CallFunc_GetController_ReturnValue' from node Set HUD in blueprint BP_Orbit_PlayerCharacter
+[2014.07.17-05.05.39:873][586]LogScript:Warning: Accessed None 'CallFunc_CastToPlayerController_ReturnValue'
+	BP_Orbit_PlayerCharacter_C /Game/Maps/UEDPIE_1_Example_Map.Example_Map:PersistentLevel.BP_Orbit_PlayerCharacter_C_5
+	Function /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter_C:setHUD:00C9
+[2014.07.17-05.05.39:873][586]PIE:Error: Error Accessed None 'CallFunc_CastToPlayerController_ReturnValue' from node Set HUD in blueprint BP_Orbit_PlayerCharacter
+[2014.07.17-05.05.39:873][586]LogBlueprintUserMessages: Server: Nope... 2
+[2014.07.17-05.05.39:873][586]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-05.05.39:873][586]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-05.05.39:874][586]LogNet: Join succeeded: 270
+[2014.07.17-05.05.39:878][586]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-05.05.39:878][586]LogNet: BP_Orbit_PlayerController_C_14 setplayer LocalPlayer_9
+[2014.07.17-05.05.39:878][586]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.05.39:930][587]LogPlayerController: Spawned spectator SpectatorPawn_14 [server:0]
+[2014.07.17-05.05.40:505][596]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_6, AcknowledgedPawn: None
+[2014.07.17-05.05.40:505][596]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_6
+[2014.07.17-05.05.40:560][597]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_5
+[2014.07.17-05.05.47:104][696]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.07.17-05.05.47:104][696]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:50450, Time: 2014.07.17-05.05.47
+[2014.07.17-05.05.47:104][696]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2014.07.17-05.05.47:104][696]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.07.17-05.05.47:104][696]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-05.05.47
+[2014.07.17-05.05.47:104][696]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2014.07.17-05.05.47:115][696]LogExit: GameNetDriver None shut down
+[2014.07.17-05.05.47:115][696]LogExit: GameNetDriver None shut down
+[2014.07.17-05.05.47:116][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD79080
+[2014.07.17-05.05.47:132][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000321FCFE0
+[2014.07.17-05.06.34:408][118]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-05.06.34:409][118]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.17-05.10.14:339][988]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.17-05.10.14:339][988]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.17-05.10.14:339][988]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.07.17-05.10.14:340][988]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_410009.EdGraphPin_5609"''
+[2014.07.17-05.10.14:341][988]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_DynamicCast_307.EdGraphPin_8723"''
+[2014.07.17-05.10.36:197][559]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.10.36:200][559]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.11.01:252][211]BlueprintLog: New page: Compile BP_Orbit_PlayerController
+[2014.07.17-05.11.01:395][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.07.17-05.11.01:395][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.07.17-05.11.01:395][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.07.17-05.11.01:456][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023786700
+[2014.07.17-05.11.01:457][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A4E4680
+[2014.07.17-05.11.01:457][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D859620
+[2014.07.17-05.11.02:086][211]BlueprintEditorCompileResults: Info [1840.09] Compile of BP_Orbit_PlayerController successful! [in 15 ms]
+[2014.07.17-05.11.03:145][225]LogSavePackage: Save=63.604733ms
+[2014.07.17-05.11.03:145][225]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerController5BDFD48844F210161E9F2BACA6562325.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerController.uasset'
+[2014.07.17-05.11.07:694][363]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.07.17-05.11.07:694][363]LogPlayLevel: [PIE] Compiling BP_Orbit_PlayerCharacter before PIE...
+[2014.07.17-05.11.07:958][363]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BA54AE0
+[2014.07.17-05.11.07:966][363]LogPlayLevel: PIE:  Blueprint regeneration took 271 ms (1 blueprints)
+[2014.07.17-05.11.07:967][363]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:11:07 PM)
+[2014.07.17-05.11.08:024][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057597s)
+[2014.07.17-05.11.08:025][363]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2014.07.17-05.11.08:026][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.059051s)
+[2014.07.17-05.11.08:026][363]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-05.11.08:093][363]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.11.08
+[2014.07.17-05.11.08:094][363]LogWorld: Bringing up level for play took: 0.008140
+[2014.07.17-05.11.08:095][363]LogPlayerController: Spawned spectator SpectatorPawn_15 [server:1]
+[2014.07.17-05.11.08:096][363]LogGameMode: RestartPlayer 271
+[2014.07.17-05.11.08:097][363]LogBlueprintUserMessages: Hello
+[2014.07.17-05.11.08:098][363]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.11.08:098][363]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.11.08:104][363]LogBlueprintUserMessages: Enabling HUD
+[2014.07.17-05.11.08:113][363]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.869
+[2014.07.17-05.11.08:114][363]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-05.11.08:115][363]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2014.07.17-05.11.08:115][363]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:11:08 PM)
+[2014.07.17-05.11.08:117][363]LogWorld: Game class is 'GameMode'
+[2014.07.17-05.11.08:176][363]LogWorld: Bringing World /Temp/Untitled_6.NewWorld up for play (max tick rate 0) at 2014.07.16-22.11.08
+[2014.07.17-05.11.08:177][363]LogWorld: Bringing up level for play took: 0.001689
+[2014.07.17-05.11.08:178][363]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-05.11.08:179][363]LogPlayerController: Spawned spectator SpectatorPawn_16 [server:1]
+[2014.07.17-05.11.08:179][363]LogGameMode: RestartPlayer 272
+[2014.07.17-05.11.08:179][363]LogPlayerController: ClientRestart_Implementation DefaultPawn_5
+[2014.07.17-05.11.08:179][363]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_5
+[2014.07.17-05.11.08:193][363]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.949
+[2014.07.17-05.11.08:193][363]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-05.11.08:193][363]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-05.11.08:195][363]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-05.11.08:195][363]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-05.11.08:196][363]LogNet: Open Example_Map 07/16/14 22:11:08 127.0.0.1
+[2014.07.17-05.11.08:196][363]LogNet: Added client connection.  Remote address = 127.0.0.1:53360
+[2014.07.17-05.11.08:196][363]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-05.11.08:196][363]LogNet: Remote platform little endian=1
+[2014.07.17-05.11.08:196][363]LogNet: This platform little endian=1
+[2014.07.17-05.11.08:419][364]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-05.11.08:419][364]LogNet: Client netspeed is 10000
+[2014.07.17-05.11.08:422][364]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-05.11.08:501][364]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-05.11.08:503][364]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.07.17-05.11.08:571][364]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BFFF060
+[2014.07.17-05.11.08:573][364]Cmd: MEM
+[2014.07.17-05.11.08:614][364]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-05.11.08:614][364]LogMemory: Process Physical Memory: 731.91 MB used, 742.61 MB peak
+[2014.07.17-05.11.08:614][364]LogMemory: Process Virtual Memory: 648.56 MB used, 657.12 MB peak
+[2014.07.17-05.11.08:614][364]LogMemory: Physical Memory: 4146.94 MB used, 12184.70 MB total
+[2014.07.17-05.11.08:614][364]LogMemory: Virtual Memory: 1254.39 MB used, 8388608.00 MB total
+[2014.07.17-05.11.08:614][364]LogMemory: 
+[2014.07.17-05.11.08:614][364]Allocator Stats for TBB: (not implemented)
+[2014.07.17-05.11.08:615][364]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-05.11.08:669][364]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-05.11.08:676][364]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.11.08
+[2014.07.17-05.11.08:677][364]LogWorld: Bringing up level for play took: 0.006639
+[2014.07.17-05.11.08:745][365]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-05.11.08:746][365]LogGameMode: RestartPlayer 273
+[2014.07.17-05.11.08:748][365]LogScript:Warning: Accessed None 'CallFunc_GetController_ReturnValue'
+	BP_Orbit_PlayerCharacter_C /Game/Maps/UEDPIE_1_Example_Map.Example_Map:PersistentLevel.BP_Orbit_PlayerCharacter_C_1
+	Function /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter_C:setHUD:0098
+[2014.07.17-05.11.08:749][365]PIE:Error: Error Accessed None 'CallFunc_GetController_ReturnValue' from node Set HUD in blueprint BP_Orbit_PlayerCharacter
+[2014.07.17-05.11.08:749][365]LogScript:Warning: Accessed None 'CallFunc_CastToPlayerController_ReturnValue'
+	BP_Orbit_PlayerCharacter_C /Game/Maps/UEDPIE_1_Example_Map.Example_Map:PersistentLevel.BP_Orbit_PlayerCharacter_C_1
+	Function /Game/Blueprints/BP_Orbit_PlayerCharacter.BP_Orbit_PlayerCharacter_C:setHUD:00C9
+[2014.07.17-05.11.08:749][365]PIE:Error: Error Accessed None 'CallFunc_CastToPlayerController_ReturnValue' from node Set HUD in blueprint BP_Orbit_PlayerCharacter
+[2014.07.17-05.11.08:749][365]LogBlueprintUserMessages: Server: Nope... 2
+[2014.07.17-05.11.08:749][365]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-05.11.08:750][365]LogBlueprintUserMessages: Server: Hello
+[2014.07.17-05.11.08:750][365]LogNet: Join succeeded: 273
+[2014.07.17-05.11.08:754][365]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-05.11.08:754][365]LogNet: BP_Orbit_PlayerController_C_2 setplayer LocalPlayer_11
+[2014.07.17-05.11.08:755][365]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.11.08:808][366]LogPlayerController: Spawned spectator SpectatorPawn_17 [server:0]
+[2014.07.17-05.11.09:386][376]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2, AcknowledgedPawn: None
+[2014.07.17-05.11.09:386][376]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2
+[2014.07.17-05.11.09:452][377]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_1
+[2014.07.17-05.11.10:995][400]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.07.17-05.11.10:995][400]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:53360, Time: 2014.07.17-05.11.10
+[2014.07.17-05.11.10:995][400]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2014.07.17-05.11.10:996][400]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.07.17-05.11.10:996][400]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-05.11.10
+[2014.07.17-05.11.10:996][400]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2014.07.17-05.11.11:007][400]LogExit: GameNetDriver None shut down
+[2014.07.17-05.11.11:007][400]LogExit: GameNetDriver None shut down
+[2014.07.17-05.11.11:007][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019E5AAC0
+[2014.07.17-05.11.11:024][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BFFE5C0
+[2014.07.17-05.11.51:726][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2014.07.17-05.11.51:727][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.07.17-05.11.51:727][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2014.07.17-05.12.02:268][734]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-05.12.02:556][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.07.17-05.12.03:270][734]BlueprintEditorCompileResults: Info [1901.27] Compile of BP_Orbit_PlayerCharacter successful! [in 132 ms]
+[2014.07.17-05.12.05:899][772]LogSavePackage: Save=953.743408ms
+[2014.07.17-05.12.05:899][772]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter13757653461A7640ACA2889E35995870.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-05.12.35:905][702]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-05.12.35:905][702]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:12:35 PM)
+[2014.07.17-05.12.35:965][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059125s)
+[2014.07.17-05.12.35:966][702]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2014.07.17-05.12.35:966][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.060980s)
+[2014.07.17-05.12.35:967][702]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-05.12.36:040][702]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.12.36
+[2014.07.17-05.12.36:041][702]LogWorld: Bringing up level for play took: 0.013775
+[2014.07.17-05.12.36:043][702]LogPlayerController: Spawned spectator SpectatorPawn_18 [server:1]
+[2014.07.17-05.12.36:043][702]LogGameMode: RestartPlayer 274
+[2014.07.17-05.12.36:045][702]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.12.36:045][702]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.12.36:051][702]LogBlueprintUserMessages: Enabling HUD
+[2014.07.17-05.12.36:059][702]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.813
+[2014.07.17-05.12.36:059][702]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-05.12.36:061][702]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2014.07.17-05.12.36:061][702]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:12:36 PM)
+[2014.07.17-05.12.36:063][702]LogWorld: Game class is 'GameMode'
+[2014.07.17-05.12.36:126][702]LogWorld: Bringing World /Temp/Untitled_7.NewWorld up for play (max tick rate 0) at 2014.07.16-22.12.36
+[2014.07.17-05.12.36:126][702]LogWorld: Bringing up level for play took: 0.000947
+[2014.07.17-05.12.36:127][702]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-05.12.36:128][702]LogPlayerController: Spawned spectator SpectatorPawn_19 [server:1]
+[2014.07.17-05.12.36:128][702]LogGameMode: RestartPlayer 275
+[2014.07.17-05.12.36:128][702]LogPlayerController: ClientRestart_Implementation DefaultPawn_6
+[2014.07.17-05.12.36:128][702]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_6
+[2014.07.17-05.12.36:140][702]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.894
+[2014.07.17-05.12.36:140][702]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-05.12.36:140][702]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-05.12.36:142][702]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-05.12.36:142][702]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-05.12.36:142][702]LogNet: Open Example_Map 07/16/14 22:12:36 127.0.0.1
+[2014.07.17-05.12.36:142][702]LogNet: Added client connection.  Remote address = 127.0.0.1:62190
+[2014.07.17-05.12.36:142][702]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-05.12.36:142][702]LogNet: Remote platform little endian=1
+[2014.07.17-05.12.36:142][702]LogNet: This platform little endian=1
+[2014.07.17-05.12.36:351][703]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-05.12.36:351][703]LogNet: Client netspeed is 10000
+[2014.07.17-05.12.36:354][703]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-05.12.36:423][703]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-05.12.36:425][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.07.17-05.12.36:501][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E8D760
+[2014.07.17-05.12.36:502][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E949BC0
+[2014.07.17-05.12.36:508][703]Cmd: MEM
+[2014.07.17-05.12.36:550][703]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-05.12.36:550][703]LogMemory: Process Physical Memory: 754.54 MB used, 772.82 MB peak
+[2014.07.17-05.12.36:550][703]LogMemory: Process Virtual Memory: 672.73 MB used, 686.50 MB peak
+[2014.07.17-05.12.36:550][703]LogMemory: Physical Memory: 4172.19 MB used, 12184.70 MB total
+[2014.07.17-05.12.36:550][703]LogMemory: Virtual Memory: 1208.77 MB used, 8388608.00 MB total
+[2014.07.17-05.12.36:550][703]LogMemory: 
+[2014.07.17-05.12.36:550][703]Allocator Stats for TBB: (not implemented)
+[2014.07.17-05.12.36:551][703]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-05.12.36:607][703]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-05.12.36:615][703]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.12.36
+[2014.07.17-05.12.36:616][703]LogWorld: Bringing up level for play took: 0.007134
+[2014.07.17-05.12.36:683][704]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-05.12.36:686][704]LogGameMode: RestartPlayer 276
+[2014.07.17-05.12.36:688][704]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.12.36:688][704]LogNet: Join succeeded: 276
+[2014.07.17-05.12.36:693][704]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-05.12.36:693][704]LogNet: BP_Orbit_PlayerController_C_5 setplayer LocalPlayer_13
+[2014.07.17-05.12.36:693][704]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.12.36:735][705]LogPlayerController: Spawned spectator SpectatorPawn_20 [server:0]
+[2014.07.17-05.12.37:304][714]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2, AcknowledgedPawn: None
+[2014.07.17-05.12.37:304][714]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2
+[2014.07.17-05.12.37:358][715]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_1
+[2014.07.17-05.12.40:286][763]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_4] [BP_Orbit_PlayerController_C_4]. ChIndex == 0. Closing connection.
+[2014.07.17-05.12.40:286][763]LogNet: UNetConnection::Close: Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, PC: BP_Orbit_PlayerController_C_4, Owner: BP_Orbit_PlayerController_C_4, Channels: 10, RemoteAddr: 127.0.0.1:62190, Time: 2014.07.17-05.12.40
+[2014.07.17-05.12.40:286][763]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_13
+[2014.07.17-05.12.40:286][763]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_5] [BP_Orbit_PlayerController_C_5]. ChIndex == 0. Closing connection.
+[2014.07.17-05.12.40:286][763]LogNet: UNetConnection::Close: Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, PC: BP_Orbit_PlayerController_C_5, Owner: BP_Orbit_PlayerController_C_5, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-05.12.40
+[2014.07.17-05.12.40:286][763]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_12
+[2014.07.17-05.12.40:300][763]LogExit: GameNetDriver None shut down
+[2014.07.17-05.12.40:300][763]LogExit: GameNetDriver None shut down
+[2014.07.17-05.12.40:301][763]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E8F100
+[2014.07.17-05.12.40:314][763]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033A91B20
+[2014.07.17-05.12.41:216][799]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-05.12.41:216][799]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:12:41 PM)
+[2014.07.17-05.12.41:276][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060094s)
+[2014.07.17-05.12.41:277][799]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2014.07.17-05.12.41:278][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.061517s)
+[2014.07.17-05.12.41:278][799]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-05.12.41:359][799]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.12.41
+[2014.07.17-05.12.41:360][799]LogWorld: Bringing up level for play took: 0.011869
+[2014.07.17-05.12.41:361][799]LogPlayerController: Spawned spectator SpectatorPawn_21 [server:1]
+[2014.07.17-05.12.41:361][799]LogGameMode: RestartPlayer 277
+[2014.07.17-05.12.41:363][799]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-05.12.41:363][799]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-05.12.41:370][799]LogBlueprintUserMessages: Enabling HUD
+[2014.07.17-05.12.41:378][799]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.132
+[2014.07.17-05.12.41:378][799]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-05.12.41:379][799]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 7777
+[2014.07.17-05.12.41:380][799]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:12:41 PM)
+[2014.07.17-05.12.41:382][799]LogWorld: Game class is 'GameMode'
+[2014.07.17-05.12.41:439][799]LogWorld: Bringing World /Temp/Untitled_8.NewWorld up for play (max tick rate 0) at 2014.07.16-22.12.41
+[2014.07.17-05.12.41:440][799]LogWorld: Bringing up level for play took: 0.000855
+[2014.07.17-05.12.41:441][799]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-05.12.41:441][799]LogPlayerController: Spawned spectator SpectatorPawn_22 [server:1]
+[2014.07.17-05.12.41:441][799]LogGameMode: RestartPlayer 278
+[2014.07.17-05.12.41:442][799]LogPlayerController: ClientRestart_Implementation DefaultPawn_7
+[2014.07.17-05.12.41:442][799]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_7
+[2014.07.17-05.12.41:454][799]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.209
+[2014.07.17-05.12.41:455][799]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-05.12.41:455][799]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-05.12.41:456][799]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-05.12.41:457][799]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-05.12.41:457][799]LogNet: Open Example_Map 07/16/14 22:12:41 127.0.0.1
+[2014.07.17-05.12.41:457][799]LogNet: Added client connection.  Remote address = 127.0.0.1:62191
+[2014.07.17-05.12.41:457][799]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-05.12.41:457][799]LogNet: Remote platform little endian=1
+[2014.07.17-05.12.41:457][799]LogNet: This platform little endian=1
+[2014.07.17-05.12.41:659][800]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-05.12.41:660][800]LogNet: Client netspeed is 10000
+[2014.07.17-05.12.41:663][800]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-05.12.41:736][800]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-05.12.41:808][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A7FAF20
+[2014.07.17-05.12.41:810][800]Cmd: MEM
+[2014.07.17-05.12.41:850][800]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-05.12.41:850][800]LogMemory: Process Physical Memory: 764.03 MB used, 783.45 MB peak
+[2014.07.17-05.12.41:850][800]LogMemory: Process Virtual Memory: 681.48 MB used, 700.98 MB peak
+[2014.07.17-05.12.41:850][800]LogMemory: Physical Memory: 4181.43 MB used, 12184.70 MB total
+[2014.07.17-05.12.41:850][800]LogMemory: Virtual Memory: 1222.84 MB used, 8388608.00 MB total
+[2014.07.17-05.12.41:850][800]LogMemory: 
+[2014.07.17-05.12.41:850][800]Allocator Stats for TBB: (not implemented)
+[2014.07.17-05.12.41:851][800]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-05.12.41:915][800]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-05.12.41:922][800]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.12.41
+[2014.07.17-05.12.41:923][800]LogWorld: Bringing up level for play took: 0.007185
+[2014.07.17-05.12.41:990][801]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-05.12.41:992][801]LogGameMode: RestartPlayer 279
+[2014.07.17-05.12.41:993][801]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.12.41:994][801]LogNet: Join succeeded: 279
+[2014.07.17-05.12.41:998][801]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-05.12.41:998][801]LogNet: BP_Orbit_PlayerController_C_8 setplayer LocalPlayer_15
+[2014.07.17-05.12.41:998][801]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.12.42:040][802]LogPlayerController: Spawned spectator SpectatorPawn_23 [server:0]
+[2014.07.17-05.12.42:635][812]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_6, AcknowledgedPawn: None
+[2014.07.17-05.12.42:635][812]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_6
+[2014.07.17-05.12.42:689][813]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_5
+[2014.07.17-05.12.45:556][861]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-05.12.45:558][861]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.12.47:488][894]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.12.47:490][894]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.12.47:491][894]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.12.47:494][894]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.12.47:494][894]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.12.47:548][895]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_9, AcknowledgedPawn: None
+[2014.07.17-05.12.47:548][895]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_9
+[2014.07.17-05.12.47:609][896]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_8
+[2014.07.17-05.12.49:062][920]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-05.12.49:064][920]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.12.49:939][935]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.12.49:942][935]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.12.49:942][935]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.12.49:945][935]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.12.49:945][935]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.12.50:002][936]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_11, AcknowledgedPawn: None
+[2014.07.17-05.12.50:002][936]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_11
+[2014.07.17-05.12.50:063][937]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_10
+[2014.07.17-05.12.52:355][975]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-05.12.52:358][975]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.12.52:886][984]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.12.52:888][984]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.12.52:888][984]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.12.52:891][984]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.12.52:891][984]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.12.52:946][985]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_13, AcknowledgedPawn: None
+[2014.07.17-05.12.52:946][985]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_13
+[2014.07.17-05.12.53:005][986]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_12
+[2014.07.17-05.12.54:153][  5]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-05.12.54:156][  5]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.12.54:622][ 13]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.12.54:625][ 13]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.12.54:625][ 13]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.12.54:628][ 13]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.12.54:628][ 13]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.12.54:683][ 14]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_15, AcknowledgedPawn: None
+[2014.07.17-05.12.54:683][ 14]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_15
+[2014.07.17-05.12.54:743][ 15]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_14
+[2014.07.17-05.12.55:888][ 34]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-05.12.55:891][ 34]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.12.56:361][ 42]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.12.56:363][ 42]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.12.56:363][ 42]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.12.56:366][ 42]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.12.56:366][ 42]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.12.56:422][ 43]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_17, AcknowledgedPawn: None
+[2014.07.17-05.12.56:422][ 43]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_17
+[2014.07.17-05.12.56:484][ 44]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_16
+[2014.07.17-05.13.04:593][178]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.13.06:376][207]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.13.06:379][207]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.13.06:379][207]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.13.06:382][207]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.13.06:383][207]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.13.06:436][208]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_19, AcknowledgedPawn: None
+[2014.07.17-05.13.06:436][208]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_19
+[2014.07.17-05.13.06:495][209]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_18
+[2014.07.17-05.13.14:700][347]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.13.16:897][384]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.13.16:900][384]LogBlueprintUserMessages: Server: Cast To PlayerController FAILED!
+[2014.07.17-05.13.16:901][384]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.13.16:905][384]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.13.16:905][384]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.13.16:958][385]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_21, AcknowledgedPawn: None
+[2014.07.17-05.13.16:958][385]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_21
+[2014.07.17-05.13.17:018][386]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_20
+[2014.07.17-05.16.16:555][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001815FEC0
+[2014.07.17-05.16.48:208][283]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.07.17-05.16.48:208][283]LogNet: UNetConnection::Close: Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, PC: None, Owner: None, Channels: 3, RemoteAddr: 127.0.0.1:62191, Time: 2014.07.17-05.16.48
+[2014.07.17-05.16.48:208][283]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_15
+[2014.07.17-05.16.48:208][283]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2014.07.17-05.16.48:208][283]LogNet: UNetConnection::Close: Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, PC: None, Owner: None, Channels: 3, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-05.16.48
+[2014.07.17-05.16.48:208][283]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_14
+[2014.07.17-05.16.48:220][283]LogExit: GameNetDriver None shut down
+[2014.07.17-05.16.48:220][283]LogExit: GameNetDriver None shut down
+[2014.07.17-05.16.48:221][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033A91440
+[2014.07.17-05.16.48:285][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A7FBA60
+[2014.07.17-05.16.59:718][632]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-05.16.59:993][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
+[2014.07.17-05.16.59:993][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.07.17-05.16.59:993][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_15) Not registered. Aborting.
+[2014.07.17-05.17.00:697][632]BlueprintEditorCompileResults: Info [2198.71] Compile of BP_Orbit_PlayerCharacter successful! [in 133 ms]
+[2014.07.17-05.17.02:409][642]LogSavePackage: Save=1033.685669ms
+[2014.07.17-05.17.02:409][642]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter16BD046C47CB2B0D8DC57AAC50923E29.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-05.17.05:529][768]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.17-05.17.05:529][768]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:17:05 PM)
+[2014.07.17-05.17.05:579][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050207s)
+[2014.07.17-05.17.05:581][768]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2014.07.17-05.17.05:581][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_1_Example_Map.Example_Map (0.051692s)
+[2014.07.17-05.17.05:581][768]LogWorld: Game class is 'BP_Orbit_GameMode_C'
+[2014.07.17-05.17.05:648][768]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.17.05
+[2014.07.17-05.17.05:649][768]LogWorld: Bringing up level for play took: 0.007914
+[2014.07.17-05.17.05:650][768]LogPlayerController: Spawned spectator SpectatorPawn_24 [server:1]
+[2014.07.17-05.17.05:650][768]LogGameMode: RestartPlayer 280
+[2014.07.17-05.17.05:652][768]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.17.05:652][768]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_0
+[2014.07.17-05.17.05:667][768]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Example_Map 0.417
+[2014.07.17-05.17.05:668][768]LogInit: WinSock: Socket queue 131072 / 131072
+[2014.07.17-05.17.05:669][768]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 7777
+[2014.07.17-05.17.05:669][768]PIE: New page: PIE session: Example_Map (Jul 16, 2014, 3:17:05 PM)
+[2014.07.17-05.17.05:671][768]LogWorld: Game class is 'GameMode'
+[2014.07.17-05.17.05:732][768]LogWorld: Bringing World /Temp/Untitled_9.NewWorld up for play (max tick rate 0) at 2014.07.16-22.17.05
+[2014.07.17-05.17.05:733][768]LogWorld: Bringing up level for play took: 0.000826
+[2014.07.17-05.17.05:733][768]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.17-05.17.05:734][768]LogPlayerController: Spawned spectator SpectatorPawn_25 [server:1]
+[2014.07.17-05.17.05:734][768]LogGameMode: RestartPlayer 281
+[2014.07.17-05.17.05:734][768]LogPlayerController: ClientRestart_Implementation DefaultPawn_8
+[2014.07.17-05.17.05:734][768]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_8
+[2014.07.17-05.17.05:746][768]PIE: Info Play in editor start time for /Game/Maps/Example_Map 0.496
+[2014.07.17-05.17.05:746][768]LogNet: Browse: 127.0.0.1//Game/Maps/Example_Map
+[2014.07.17-05.17.05:747][768]LogInit: WinSock: Socket queue 32768 / 32768
+[2014.07.17-05.17.05:748][768]LogNet: Game client on port 7777, rate 10000
+[2014.07.17-05.17.05:748][768]LogNet: NotifyAcceptingConnection: Server Example_Map accept
+[2014.07.17-05.17.05:749][768]LogNet: Open Example_Map 07/16/14 22:17:05 127.0.0.1
+[2014.07.17-05.17.05:749][768]LogNet: Added client connection.  Remote address = 127.0.0.1:58537
+[2014.07.17-05.17.05:749][768]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Example_Map.Example_Map: Accepted
+[2014.07.17-05.17.05:749][768]LogNet: Remote platform little endian=1
+[2014.07.17-05.17.05:749][768]LogNet: This platform little endian=1
+[2014.07.17-05.17.05:956][769]LogNet: Login request: /Game/Maps/Example_Map userId: Invalid
+[2014.07.17-05.17.05:956][769]LogNet: Client netspeed is 10000
+[2014.07.17-05.17.05:960][769]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Example_Map, Game: /Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C)
+[2014.07.17-05.17.06:040][769]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Example_Map?game=/Game/Blueprints/BP_Orbit_GameMode.BP_Orbit_GameMode_C
+[2014.07.17-05.17.06:042][769]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.07.17-05.17.06:118][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003039FCE0
+[2014.07.17-05.17.06:119][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003010E0C0
+[2014.07.17-05.17.06:123][769]Cmd: MEM
+[2014.07.17-05.17.06:164][769]LogMemory: Platform Memory Stats for Windows
+[2014.07.17-05.17.06:164][769]LogMemory: Process Physical Memory: 805.49 MB used, 833.11 MB peak
+[2014.07.17-05.17.06:164][769]LogMemory: Process Virtual Memory: 720.55 MB used, 747.27 MB peak
+[2014.07.17-05.17.06:164][769]LogMemory: Physical Memory: 4214.06 MB used, 12184.70 MB total
+[2014.07.17-05.17.06:164][769]LogMemory: Virtual Memory: 1245.47 MB used, 8388608.00 MB total
+[2014.07.17-05.17.06:164][769]LogMemory: 
+[2014.07.17-05.17.06:164][769]Allocator Stats for TBB: (not implemented)
+[2014.07.17-05.17.06:165][769]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_Example_Map' while loading NULL.
+[2014.07.17-05.17.06:224][769]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_2_Example_Map.Example_Map. OwningWorld: None
+[2014.07.17-05.17.06:232][769]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Example_Map.Example_Map up for play (max tick rate 0) at 2014.07.16-22.17.06
+[2014.07.17-05.17.06:233][769]LogWorld: Bringing up level for play took: 0.008201
+[2014.07.17-05.17.06:306][770]LogNet: Join request: /Game/Maps/Example_Map?SplitscreenCount=1
+[2014.07.17-05.17.06:308][770]LogGameMode: RestartPlayer 282
+[2014.07.17-05.17.06:311][770]LogNet: Join succeeded: 282
+[2014.07.17-05.17.06:315][770]LogPlayerController: NULL GameState when trying to spawn spectator!
+[2014.07.17-05.17.06:316][770]LogNet: BP_Orbit_PlayerController_C_11 setplayer LocalPlayer_17
+[2014.07.17-05.17.06:316][770]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.17.06:363][771]LogPlayerController: Spawned spectator SpectatorPawn_26 [server:0]
+[2014.07.17-05.17.06:944][781]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2, AcknowledgedPawn: None
+[2014.07.17-05.17.06:945][781]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_2
+[2014.07.17-05.17.06:997][782]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_1
+[2014.07.17-05.17.09:605][826]LogNet: ReceivedBunch: Actor was destroyed during Replicator.ReceivedBunch processing
+[2014.07.17-05.17.09:608][826]LogBlueprintUserMessages: Client 1: Disabling HUD
+[2014.07.17-05.17.11:647][861]LogBlueprintUserMessages: Server: RESPAWN ATTEMPTED
+[2014.07.17-05.17.11:649][861]LogBlueprintUserMessages: Server: POSSESSING
+[2014.07.17-05.17.11:652][861]LogBlueprintUserMessages: Client 1: Enabling HUD
+[2014.07.17-05.17.11:653][861]LogPlayerController: ClientRestart_Implementation None
+[2014.07.17-05.17.11:709][862]LogPlayerController: ClientRetryClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5, AcknowledgedPawn: None
+[2014.07.17-05.17.11:709][862]LogPlayerController: ClientRestart_Implementation BP_Orbit_PlayerCharacter_C_5
+[2014.07.17-05.17.11:766][863]LogPlayerController: ServerAcknowledgePossession_Implementation BP_Orbit_PlayerCharacter_C_4
+[2014.07.17-05.17.13:910][896]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_10] [BP_Orbit_PlayerController_C_10]. ChIndex == 0. Closing connection.
+[2014.07.17-05.17.13:910][896]LogNet: UNetConnection::Close: Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, PC: BP_Orbit_PlayerController_C_10, Owner: BP_Orbit_PlayerController_C_10, Channels: 10, RemoteAddr: 127.0.0.1:58537, Time: 2014.07.17-05.17.13
+[2014.07.17-05.17.13:910][896]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_17
+[2014.07.17-05.17.13:911][896]LogNet: UChannel::CleanUp: [GameNetDriver] [BP_Orbit_PlayerController_C_11] [BP_Orbit_PlayerController_C_11]. ChIndex == 0. Closing connection.
+[2014.07.17-05.17.13:911][896]LogNet: UNetConnection::Close: Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, PC: BP_Orbit_PlayerController_C_11, Owner: BP_Orbit_PlayerController_C_11, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2014.07.17-05.17.13
+[2014.07.17-05.17.13:911][896]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_16
+[2014.07.17-05.17.13:926][896]LogExit: GameNetDriver None shut down
+[2014.07.17-05.17.13:926][896]LogExit: GameNetDriver None shut down
+[2014.07.17-05.17.13:926][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003010FB00
+[2014.07.17-05.17.13:936][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BFFF380
+[2014.07.17-05.17.26:698][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_16) Not registered. Aborting.
+[2014.07.17-05.17.26:698][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.07.17-05.17.26:698][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
+[2014.07.17-05.17.27:177][511]LogSavePackage: Save=305.504486ms
+[2014.07.17-05.17.27:177][511]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Example_Map854FD71B46E83514BD534FB4E2753080.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap'
+[2014.07.17-05.25.36:181][150]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.25.36:185][150]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.27.26:834][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
+[2014.07.17-05.27.26:834][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.07.17-05.27.26:834][683]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
+[2014.07.17-05.27.26:886][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B069800
+[2014.07.17-05.27.26:888][683]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.054
+[2014.07.17-05.27.26:919][683]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Orbit_PlayerCharacter] ([1] browsable assets)...
+[2014.07.17-05.27.26:936][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_PlayerCharacter]
+[2014.07.17-05.27.27:415][683]LogSavePackage: Save=265.282623ms
+[2014.07.17-05.27.27:415][683]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter_Auto344A1A4534E9F2DF2273627BB0656E24A.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_PlayerCharacter_Auto3.uasset'
+[2014.07.17-05.27.27:444][683]LogFileHelpers: Auto-saving content packages took 0.556
+[2014.07.17-05.30.19:132][736]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.07.17-05.30.44:774][765]LogEditorViewport: Clicking on Actor (LMB): BP_BrokenWallSconceSmokey_C (BrokenWallSconceSmokey)
+[2014.07.17-05.30.54:313][189]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.07.17-05.30.58:781][389]LogEditorViewport: Clicking on Actor (LMB): BP_DamageField_C (BP_DamageField)
+[2014.07.17-05.32.02:261][164]LogEditorViewport: Clicking on Actor (LMB): BP_BrokenWallSconceSmokey_C (BrokenWallSconceSmokey)
+[2014.07.17-05.34.01:465][ 37]LogEditorViewport: Clicking on Actor (LMB): BP_Orbit_PlayerCharacter_C (BP_Orbit_PlayerCharacter)
+[2014.07.17-05.34.25:838][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_20) Not registered. Aborting.
+[2014.07.17-05.34.25:838][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.07.17-05.34.25:838][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_21) Not registered. Aborting.
+[2014.07.17-05.34.27:013][ 18]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-05.34.27:503][ 18]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2014.07.17-05.34.28:285][ 18]BlueprintEditorCompileResults: Info [3245.99] Compile of BP_Orbit_PlayerCharacter successful! [in 132 ms]
+[2014.07.17-05.34.44:570][796]LogEditorViewport: Clicking on Actor (LMB): BP_Orbit_PlayerCharacter_C (BP_Orbit_PlayerCharacter)
+[2014.07.17-05.34.45:518][840]Cmd: DELETE
+[2014.07.17-05.34.45:518][840]Cmd: ACTOR DELETE
+[2014.07.17-05.34.45:519][840]LogEditorActor: Deleted Actor: BP_Orbit_PlayerCharacter_C
+[2014.07.17-05.34.45:546][840]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2014.07.17-05.34.45:546][840]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_22) Not registered. Aborting.
+[2014.07.17-05.34.45:546][840]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_23) Not registered. Aborting.
+[2014.07.17-05.34.45:590][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B67BF60
+[2014.07.17-05.34.45:598][840]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2014.07.17-05.35.20:448][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_24) Not registered. Aborting.
+[2014.07.17-05.35.20:448][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2014.07.17-05.35.20:449][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_25) Not registered. Aborting.
+[2014.07.17-05.35.24:334][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2014.07.17-05.35.26:643][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2014.07.17-05.35.34:440][ 41]BlueprintLog: New page: Compile BP_Orbit_PlayerCharacter
+[2014.07.17-05.35.34:726][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2014.07.17-05.35.35:451][ 41]BlueprintEditorCompileResults: Info [3313.41] Compile of BP_Orbit_PlayerCharacter successful! [in 128 ms]
+[2014.07.17-05.35.44:384][210]LogSavePackage: Save=1035.467407ms
+[2014.07.17-05.35.44:384][210]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter9464CE7F40054112C7722FA7D9F1488E.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-05.37.30:756][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2014.07.17-05.37.30:756][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_26) Not registered. Aborting.
+[2014.07.17-05.37.30:756][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_27) Not registered. Aborting.
+[2014.07.17-05.37.30:826][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033A93B00
+[2014.07.17-05.37.31:269][551]LogSavePackage: Save=244.232605ms
+[2014.07.17-05.37.31:269][551]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Example_Map_Auto4D3228D4C4BA0DC736882FFB794B8EC5D.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Maps/Example_Map_Auto4.umap'
+[2014.07.17-05.37.31:286][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.530
+[2014.07.17-05.37.31:286][551]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.530
+[2014.07.17-05.40.36:173][453]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.40.36:176][453]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.47.20:209][631]BlueprintLog: New page: Compile BP_Orbit_HUD
+[2014.07.17-05.47.20:330][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_28) Not registered. Aborting.
+[2014.07.17-05.47.20:330][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2014.07.17-05.47.20:330][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_29) Not registered. Aborting.
+[2014.07.17-05.47.20:961][631]BlueprintEditorCompileResults: Info [4019.01] Compile of BP_Orbit_HUD successful! [in 16 ms]
+[2014.07.17-05.47.28:907][860]BlueprintLog: New page: Compile BP_Orbit_HUD
+[2014.07.17-05.47.29:653][860]BlueprintEditorCompileResults: Info [4027.70] Compile of BP_Orbit_HUD successful! [in 15 ms]
+[2014.07.17-05.47.32:592][907]LogSavePackage: Save=853.931946ms
+[2014.07.17-05.47.32:592][907]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Example_Map_Auto598A1298E48C820A50F235F863EC7A015.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Maps/Example_Map_Auto5.umap'
+[2014.07.17-05.47.32:623][907]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 1.148
+[2014.07.17-05.47.32:623][907]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.148
+[2014.07.17-05.47.32:645][907]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Orbit_HUD] ([1] browsable assets)...
+[2014.07.17-05.47.32:668][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_HUD]
+[2014.07.17-05.47.32:926][907]LogSavePackage: Save=92.870552ms
+[2014.07.17-05.47.32:926][907]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_HUD_Auto517E0ED554A93E13FB03C189F1F043284.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_HUD_Auto5.uasset'
+[2014.07.17-05.47.32:980][907]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Orbit_PlayerController] ([1] browsable assets)...
+[2014.07.17-05.47.33:004][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_PlayerController]
+[2014.07.17-05.47.33:268][907]LogSavePackage: Save=96.493866ms
+[2014.07.17-05.47.33:268][907]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerController_Auto5D8F7C6264752F513A5BDBCAFE6352F28.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_PlayerController_Auto5.uasset'
+[2014.07.17-05.47.33:297][907]LogFileHelpers: Auto-saving content packages took 0.673
+[2014.07.17-05.55.36:366][506]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.55.36:370][506]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.17-05.57.33:601][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_30) Not registered. Aborting.
+[2014.07.17-05.57.33:602][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2014.07.17-05.57.33:602][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_31) Not registered. Aborting.
+[2014.07.17-05.57.33:678][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001815EC00
+[2014.07.17-05.57.33:678][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003010F100
+[2014.07.17-05.57.33:680][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019CA9E40
+[2014.07.17-05.57.33:681][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000333DBBA0
+[2014.07.17-05.57.35:093][779]LogSavePackage: Save=1168.823975ms
+[2014.07.17-05.57.35:093][779]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Example_Map_Auto60C7C6C3C4656F3600F6AC5A61F71BAFA.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Maps/Example_Map_Auto6.umap'
+[2014.07.17-05.57.35:137][779]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 1.536
+[2014.07.17-05.57.35:137][779]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.536
+[2014.07.17-05.57.35:158][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Orbit_HUD] ([1] browsable assets)...
+[2014.07.17-05.57.35:177][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_HUD]
+[2014.07.17-05.57.35:396][779]LogSavePackage: Save=67.790283ms
+[2014.07.17-05.57.35:396][779]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_HUD_Auto602CB03414C4DA10F83C6FAA6D6191B30.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_HUD_Auto6.uasset'
+[2014.07.17-05.57.35:444][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Orbit_PlayerCharacter] ([1] browsable assets)...
+[2014.07.17-05.57.35:458][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_PlayerCharacter]
+[2014.07.17-05.57.35:904][779]LogSavePackage: Save=274.412720ms
+[2014.07.17-05.57.35:904][779]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter_Auto622BB59604818C98CB7583499B50B5590.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_PlayerCharacter_Auto6.uasset'
+[2014.07.17-05.57.35:952][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Orbit_PlayerController] ([1] browsable assets)...
+[2014.07.17-05.57.35:960][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Orbit_PlayerController]
+[2014.07.17-05.57.36:228][779]LogSavePackage: Save=91.904930ms
+[2014.07.17-05.57.36:228][779]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerController_Auto6CFFC5B914C3E1A5BBF9CCCBB3B4375D9.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Autosaves/Game/Blueprints/BP_Orbit_PlayerController_Auto6.uasset'
+[2014.07.17-05.57.36:256][779]LogFileHelpers: Auto-saving content packages took 1.119
+[2014.07.17-05.59.30:846][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033A920C0
+[2014.07.17-05.59.31:938][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Orbit_HUD" FILE="../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_HUD.uasset" SILENT=true
+[2014.07.17-05.59.32:136][992]LogSavePackage: Save=48.613949ms
+[2014.07.17-05.59.32:136][992]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_HUDA85B314D4D751DD376042186C9EC5C48.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_HUD.uasset'
+[2014.07.17-05.59.32:527][992]LogSavePackage: Save=241.532074ms
+[2014.07.17-05.59.32:527][992]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerCharacter376CD5A94A41056DEFC30C9BD152364C.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerCharacter.uasset'
+[2014.07.17-05.59.32:716][992]LogSavePackage: Save=56.617363ms
+[2014.07.17-05.59.32:716][992]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/BP_Orbit_PlayerController296AB7B247E5E632675BE6861BC3B40A.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Blueprints/BP_Orbit_PlayerController.uasset'
+[2014.07.17-05.59.33:336][992]LogSavePackage: Save=242.538300ms
+[2014.07.17-05.59.33:336][992]LogSavePackage: Moving '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Saved/Example_Map92D0A15749075A55CAFBEFA3D56F5289.tmp' to '../../../../../../../Users/Eric/Documents/Unreal Projects/OrbitFPS/Content/Maps/Example_Map.umap'
+[2014.07.17-05.59.33:408][992]LogFileHelpers: Saving map 'Example_Map' took 0.671
+[2014.07.17-05.59.34:446][993]Cmd: QUIT_EDITOR
+[2014.07.17-05.59.34:592][993]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.07.17-05.59.34:596][993]LogExit: Preparing to exit.
+[2014.07.17-05.59.35:248][993]LogExit: Editor shut down
+[2014.07.17-05.59.35:248][993]LogExit: Transaction tracking system shut down
+[2014.07.17-05.59.35:251][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B862B60
+[2014.07.17-05.59.35:252][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AED3380
+[2014.07.17-05.59.35:302][993]LogExit: Object subsystem successfully closed.
+[2014.07.17-05.59.35:436][993]LogModuleManager: Shutting down and abandoning module Levels (164)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.07.17-05.59.35:437][993]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.07.17-05.59.35:445][993]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.07.17-05.59.35:445][993]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.07.17-05.59.35:445][993]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.07.17-05.59.35:446][993]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.07.17-05.59.35:446][993]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.07.17-05.59.35:446][993]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.07.17-05.59.35:447][993]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.07.17-05.59.35:448][993]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.07.17-05.59.35:449][993]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.07.17-05.59.35:554][993]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.07.17-05.59.35:555][993]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.07.17-05.59.35:752][993]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.07.17-05.59.35:752][993]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.07.17-05.59.35:752][993]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.07.17-05.59.35:752][993]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.07.17-05.59.35:752][993]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.07.17-05.59.35:752][993]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.07.17-05.59.35:754][993]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.07.17-05.59.35:754][993]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.07.17-05.59.35:754][993]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.07.17-05.59.35:754][993]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.07.17-05.59.35:754][993]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.07.17-05.59.35:754][993]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.07.17-05.59.35:754][993]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.07.17-05.59.35:756][993]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.07.17-05.59.35:756][993]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.07.17-05.59.35:756][993]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.07.17-05.59.35:760][993]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.07.17-05.59.35:761][993]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.07.17-05.59.35:761][993]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.07.17-05.59.35:761][993]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.07.17-05.59.35:761][993]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.07.17-05.59.35:816][993]LogDerivedDataCache: Shutdown
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.07.17-05.59.35:816][993]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.07.17-05.59.35:817][993]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.07.17-05.59.35:825][993]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.07.17-05.59.35:825][993]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.07.17-05.59.35:825][993]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.07.17-05.59.35:826][993]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.07.17-05.59.35:826][993]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.07.17-05.59.35:926][993]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.07.17-05.59.35:927][993]LogExit: Exiting.
+[2014.07.17-05.59.35:959][993]Log file closed, 07/16/14 22:59:35
